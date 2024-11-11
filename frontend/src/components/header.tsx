@@ -1,6 +1,8 @@
 import React from "react";
 import "../assets/css/index.css";
 
+//have to make a function to detect what link should be highlighted red "active" classname
+
 function Header() {
   return (
     <header id="header" className="fixed-top d-flex align-items-center">

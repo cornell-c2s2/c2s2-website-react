@@ -34,7 +34,7 @@ function Footer() {
                 <a href="https://github.com/cornell-c2s2" className="github">
                   <i className="bx bxl-github"></i>
                 </a>
-                <a href="#" className="twitter">
+                {/* <a href="#" className="twitter">
                   <i className="bx bxl-twitter"></i>
                 </a>
                 <a href="#" className="facebook">
@@ -42,7 +42,7 @@ function Footer() {
                 </a>
                 <a href="#" className="google-plus">
                   <i className="bx bxl-skype"></i>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -75,7 +75,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-lg-3 col-md-6 footer-links">
+            {/* <div className="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul>
                 <li>
@@ -124,7 +124,7 @@ function Footer() {
                   <i className="bx bxl-linkedin"></i>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -138,7 +138,8 @@ function Footer() {
           . All Rights Reserved
         </div>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by{" "}
+          <a href="https://cornellwebdevclub.com/">Cornell Webdev</a>
         </div>
       </div>
     </footer>

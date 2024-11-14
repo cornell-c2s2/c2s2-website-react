@@ -12,6 +12,7 @@ import Layout from "./components/layout.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";
 import Sponsors from "./components/sponsors.js";
+import Apply from "./components/apply.js"
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="sponsors" element={<Sponsors />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/apply" element={<Apply />} />
       </Route>
     </Routes>
   );

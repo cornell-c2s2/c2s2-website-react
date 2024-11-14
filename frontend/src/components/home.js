@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/index.css";
+import hero from "../assets/img/hero-img.png";
 
 function Home() {
   return (
@@ -21,11 +21,7 @@ function Home() {
                 </div>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                <img
-                  src="../assets/img/hero-img.png"
-                  className="img-fluid animated"
-                  alt=""
-                />
+                <img src={hero} className="img-fluid animated" alt="" />
               </div>
             </div>
           </div>

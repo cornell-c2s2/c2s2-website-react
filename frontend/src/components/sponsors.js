@@ -1,4 +1,6 @@
 import React from "react";
+import cadence from "../assets/img/sponsors/cadence.png";
+import amd from "../assets/img/sponsors/amd.png";
 
 function Sponsors() {
   return (
@@ -61,7 +63,7 @@ function Sponsors() {
                 <a target="_blank" href="https://cadence.com">
                   {/* style="margin: 0.5rem 0.5rem 0.5rem 1.5rem"  */}
                   <img
-                    src="assets/img/sponsors/cadence.png"
+                    src={cadence}
                     className="img-fluid"
                     alt="Cadence Design Systems"
                   />
@@ -77,7 +79,7 @@ function Sponsors() {
               <div className="sponsor">
                 <a target="_blank" href="https://amd.com">
                   <img
-                    src="assets/img/sponsors/amd.png"
+                    src={amd}
                     className="img-fluid"
                     alt="Advanced Micro Devices, Inc."
                   />

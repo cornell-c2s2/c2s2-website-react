@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/index.css";
+import logo from "../assets/img/logo.png";
 
 //have to make a function to detect what link should be highlighted red "active" classname
 
@@ -9,11 +9,7 @@ function Header() {
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
           <a href="./">
-            <img
-              src="../assets/img/logo.png"
-              alt="C2S2 Logo"
-              className="img-fluid"
-            />
+            <img src={logo} alt="C2S2 Logo" className="img-fluid" />
           </a>
         </div>
 

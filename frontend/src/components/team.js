@@ -1,5 +1,90 @@
 import React from "react";
 
+//Advisors
+import acm289 from "../assets/img/team/acm289.jpg";
+import cb535 from "../assets/img/team/cb535.jpg";
+import vha3 from "../assets/img/team/vha3.jpg";
+
+//Digital Subteam
+import ayc62 from "../assets/img/team/ayc62.jpg";
+import fl327 from "../assets/img/team/fl327.jpg";
+import deg273 from "../assets/img/team/deg273.jpg";
+import el595 from "../assets/img/team/el595.jpg";
+import eyl47 from "../assets/img/team/eyl47.jpg";
+import jjm469 from "../assets/img/team/jjm469.jpg";
+import kjr64 from "../assets/img/team/kjr64.jpg";
+import noUser from "../assets/img/team/no-user.jpg";
+import vml37 from "../assets/img/team/vml37.jpg";
+
+//Analog Subteam
+import cx237 from "../assets/img/team/cx237.jpg";
+import dgk64 from "../assets/img/team/dgk64.jpg";
+import dcb277 from "../assets/img/team/dcb277.jpg";
+import jzh8 from "../assets/img/team/jzh8.jpg";
+import txd3 from "../assets/img/team/txd3.jpg";
+import tjf87 from "../assets/img/team/tjf87.jpg";
+
+//Software Team
+import ec798 from "../assets/img/team/ec798.jpg";
+import jf679 from "../assets/img/team/jf679.jpg";
+
+//System Architecture Subteam
+import av458 from "../assets/img/team/av458.jpg";
+import cca54 from "../assets/img/team/cca54.jpg";
+import ebc68 from "../assets/img/team/ebc68.jpg";
+import sq86 from "../assets/img/team/sq86.jpg";
+
+//Project Management Subteam
+import akv45 from "../assets/img/team/akv45.jpg";
+import amt263 from "../assets/img/team/amt263.jpg";
+import zw286 from "../assets/img/team/zw286.jpg";
+
+function TeamMember(prop) {
+  return (
+    <div
+      className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+    >
+      <div className="member">
+        <img src={prop.img} className="img-fluid" alt="" />
+        <div className="member-info">
+          <div
+            className={
+              prop.github == "" && prop.linkedin == ""
+                ? "member-info-content-no-social"
+                : "member-info-content"
+            }
+          >
+            <h4>{prop.name}</h4>
+            {prop.role == "" ? "" : <span>{prop.role}</span>}
+          </div>
+          {prop.github == "" && prop.linkedin == "" ? (
+            ""
+          ) : (
+            <div className="social">
+              {prop.github == "" ? (
+                ""
+              ) : (
+                <a target="_blank" href={prop.github}>
+                  <i className="bi bi-github"></i>
+                </a>
+              )}
+              {prop.linkedin == "" ? (
+                ""
+              ) : (
+                <a target="_blank" href={prop.linkedin}>
+                  <i className="bi bi-linkedin"></i>
+                </a>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Team() {
   return (
     <main id="main">
@@ -20,93 +105,29 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/acm289.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Aidan McNay</h4>
-                    <span>Team Lead</span>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/Aidan-McNay">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/aidan-mcnay-0ba928201/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Aidan McNay"
+              role="Team Lead"
+              img={acm289}
+              github="https://github.com/Aidan-McNay"
+              linkedin="https://www.linkedin.com/in/aidan-mcnay-0ba928201/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/cb535.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Prof. Christopher Batten</h4>
-                    <span>Faculty Advisor</span>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.engineering.cornell.edu/faculty-directory/christopher-batten"
-                    >
-                      <i className="bi bi-globe"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Prof. Christopher Batten"
+              role="Faculty Advisor"
+              img={cb535}
+              github=""
+              linkedin="https://www.engineering.cornell.edu/faculty-directory/christopher-batten"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/vha3.jpg"
-                  className="img-fluid"
-                  alt=""
-                  max-width="20px"
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Prof. Hunter Adams</h4>
-                    <span>Faculty Advisor</span>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.engineering.cornell.edu/faculty-directory/hunter-adams"
-                    >
-                      <i className="bi bi-globe"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Prof. Hunter Adams"
+              role="Faculty Advisor"
+              img={vha3}
+              github=""
+              linkedin="https://www.engineering.cornell.edu/faculty-directory/hunter-adams"
+            />
           </div>
         </div>
       </section>
@@ -118,221 +139,77 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/ayc62.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Angela Cui</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Angela Cui"
+              role=""
+              img={ayc62}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/fl327.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Barry Lyu</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Barry Lyu"
+              role=""
+              img={fl327}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/deg273.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Demetrios Gavalas</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Demetrios Gavalas"
+              role=""
+              img={deg273}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/el595.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Edmund Lam</h4>
-                    <span>Digital Subteam Co-Lead</span>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/UnsignedByte">
-                      <i className="bi bi-github"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Edmund Lam"
+              role="Digital Subteam Co-Lead"
+              img={el595}
+              github="https://github.com/UnsignedByte"
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/eyl47.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Emily Lan</h4>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/emily-lan-ca/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Emily Lan"
+              role=""
+              img={eyl47}
+              github=""
+              linkedin="https://www.linkedin.com/in/emily-lan-ca/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/jjm469.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Johnny Martinez</h4>
-                    <span>Digital Subteam Co-Lead</span>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/jjm469">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/johnny-martinez469/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Johnny Martinez"
+              role="Digital Subteam Co-Lead"
+              img={jjm469}
+              github="https://github.com/jjm469"
+              linkedin="https://www.linkedin.com/in/johnny-martinez469/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/kjr64.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Kevin Rodriguez</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Kevin Rodriguez"
+              role=""
+              img={kjr64}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/no-user.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Tomas Choi</h4>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/tomas-choi-913189240"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Tomas Choi"
+              role=""
+              img={noUser}
+              github=""
+              linkedin="https://www.linkedin.com/in/tomas-choi-913189240"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/vml37.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Vicky Le</h4>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/VickyLe03">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/vicky-le-01725125b"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Vicky Le"
+              role=""
+              img={vml37}
+              github="https://github.com/VickyLe03"
+              linkedin="https://www.linkedin.com/in/vicky-le-01725125b"
+            />
           </div>
         </div>
       </section>
@@ -345,150 +222,53 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/cx237.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Caden Xu</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Caden Xu"
+              role=""
+              img={cx237}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/dgk64.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Daniel Kaminski</h4>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/dgkaminski">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/daniel-kaminski-447785234/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Daniel Kaminski"
+              role=""
+              img={dgk64}
+              github="https://github.com/dgkaminski"
+              linkedin="https://www.linkedin.com/in/daniel-kaminski-447785234/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/dcb277.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>David Bertuch</h4>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://github.com/DavidDavidDavidDavidDavidDavidDavid"
-                    >
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/david-bertuch/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="David Bertuch"
+              role=""
+              img={dcb277}
+              github="https://github.com/DavidDavidDavidDavidDavidDavidDavid"
+              linkedin="https://www.linkedin.com/in/david-bertuch/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/jzh8.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Jon Ho</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Jon Ho"
+              role=""
+              img={jzh8}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/txd3.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Taylor Do</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Taylor Do"
+              role=""
+              img={txd3}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/tjf87.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Thomas Figura</h4>
-                    <span>Analog Subteam Lead</span>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://www.linkedin.com/in/tjf87">
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Thomas Figura"
+              role="Analog Subteam Lead"
+              img={tjf87}
+              github=""
+              linkedin="https://www.linkedin.com/in/tjf87"
+            />
           </div>
         </div>
       </section>
@@ -501,54 +281,21 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/ec798.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Elias Castro</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Elias Castro"
+              role=""
+              img={ec798}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/jf679.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Jack Frank</h4>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/frank-jack">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/jack-frank-4a9897245/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Jack Frank"
+              role=""
+              img={jf679}
+              github="https://github.com/frank-jack"
+              linkedin="https://www.linkedin.com/in/jack-frank-4a9897245/"
+            />
           </div>
         </div>
       </section>
@@ -561,102 +308,37 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/av458.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Akshati Vaishnav</h4>
-                    <span>System Architecture Subteam Co-Lead</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Akshati Vaishnav"
+              role="System Architecture Subteam Co-Lead"
+              img={av458}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/cca54.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Chimdi Anude</h4>
-                    <span>System Architecture Subteam Co-Lead</span>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/chimdi-anude/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Chimdi Anude"
+              role="System Architecture Subteam Co-Lead"
+              img={cca54}
+              github=""
+              linkedin="https://www.linkedin.com/in/chimdi-anude/"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/ebc68.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Kene Chukwuma-Orakwe</h4>
-                  </div>
-                  <div className="social">
-                    <a target="_blank" href="https://github.com/Kndlch">
-                      <i className="bi bi-github"></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/kene-cornell"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Kene Chukwuma-Orakwe"
+              role=""
+              img={ebc68}
+              github="https://github.com/Kndlch"
+              linkedin="https://www.linkedin.com/in/kene-cornell"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/sq86.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Sherri Qazi</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Sherri Qazi"
+              role=""
+              img={sq86}
+              github=""
+              linkedin=""
+            />
           </div>
         </div>
       </section>
@@ -669,79 +351,29 @@ function Team() {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/akv45.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Abigail Varghese</h4>
-                    <span>Project Management Subteam Lead</span>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="www.linkedin.com/in/abigail-varghese-589b49244"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Abigail Varghese"
+              role="Project Management Subteam Lead"
+              img={akv45}
+              github=""
+              linkedin="https://www.linkedin.com/in/abigail-varghese-589b49244"
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/amt263.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content-no-social">
-                    <h4>Adele Thompson</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Adele Thompson"
+              role=""
+              img={amt263}
+              github=""
+              linkedin=""
+            />
 
-            <div
-              className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div className="member">
-                <img
-                  src="../assets/img/team/zw286.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Jason Wang</h4>
-                  </div>
-                  <div className="social">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/zhihanjasonwang/"
-                    >
-                      <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamMember
+              name="Jason Wang"
+              role=""
+              img={zw286}
+              github=""
+              linkedin="https://www.linkedin.com/in/zhihanjasonwang/"
+            />
           </div>
         </div>
       </section>

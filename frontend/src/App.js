@@ -12,7 +12,8 @@ import Layout from "./components/layout.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";
 import Sponsors from "./components/sponsors.js";
-import Apply from "./components/apply.js"
+import Apply from "./components/apply.js";
+import Team from "./components/team.js";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/apply" element={<Apply />} />
       </Route>
     </Routes>

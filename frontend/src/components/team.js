@@ -39,52 +39,6 @@ import akv45 from "../assets/img/team/akv45.jpg";
 import amt263 from "../assets/img/team/amt263.jpg";
 import zw286 from "../assets/img/team/zw286.jpg";
 
-function TeamMember(prop) {
-  return (
-    <div
-      className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
-      data-aos="zoom-in"
-      data-aos-delay="100"
-    >
-      <div className="member">
-        <img src={prop.img} className="img-fluid" alt="" />
-        <div className="member-info">
-          <div
-            className={
-              prop.github == "" && prop.linkedin == ""
-                ? "member-info-content-no-social"
-                : "member-info-content"
-            }
-          >
-            <h4>{prop.name}</h4>
-            {prop.role == "" ? "" : <span>{prop.role}</span>}
-          </div>
-          {prop.github == "" && prop.linkedin == "" ? (
-            ""
-          ) : (
-            <div className="social">
-              {prop.github == "" ? (
-                ""
-              ) : (
-                <a target="_blank" href={prop.github}>
-                  <i className="bi bi-github"></i>
-                </a>
-              )}
-              {prop.linkedin == "" ? (
-                ""
-              ) : (
-                <a target="_blank" href={prop.linkedin}>
-                  <i className="bi bi-linkedin"></i>
-                </a>
-              )}
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Team() {
   return (
     <main id="main">
@@ -382,3 +336,49 @@ function Team() {
 }
 
 export default Team;
+
+function TeamMember(prop) {
+  return (
+    <div
+      className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+    >
+      <div className="member">
+        <img src={prop.img} className="img-fluid" alt="" />
+        <div className="member-info">
+          <div
+            className={
+              prop.github == "" && prop.linkedin == ""
+                ? "member-info-content-no-social"
+                : "member-info-content"
+            }
+          >
+            <h4>{prop.name}</h4>
+            {prop.role == "" ? "" : <span>{prop.role}</span>}
+          </div>
+          {prop.github == "" && prop.linkedin == "" ? (
+            ""
+          ) : (
+            <div className="social">
+              {prop.github == "" ? (
+                ""
+              ) : (
+                <a target="_blank" href={prop.github}>
+                  <i className="bi bi-github"></i>
+                </a>
+              )}
+              {prop.linkedin == "" ? (
+                ""
+              ) : (
+                <a target="_blank" href={prop.linkedin}>
+                  <i className="bi bi-linkedin"></i>
+                </a>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

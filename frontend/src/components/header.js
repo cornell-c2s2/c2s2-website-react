@@ -32,27 +32,27 @@ function Header() {
               </a>
               <ul>
                 <li>
-                  <a className="nav-link scrollto" href="team.html#digital">
+                  <a className="nav-link scrollto" href="team#digital">
                     Digital
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team.html#analog">
+                  <a className="nav-link scrollto" href="team#analog">
                     Analog
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team.html#software">
+                  <a className="nav-link scrollto" href="team#software">
                     Software
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team.html#sys-arch">
+                  <a className="nav-link scrollto" href="team#sys-arch">
                     System Architecture
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team.html#proj-man">
+                  <a className="nav-link scrollto" href="team#proj-man">
                     Project Management
                   </a>
                 </li>

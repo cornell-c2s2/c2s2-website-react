@@ -1,9 +1,21 @@
 import React from "react";
 import logo from "../assets/img/logo.png";
 
-//have to make a function to detect what link should be highlighted red "active" classname
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const location = useLocation();
+  const [path, setPath] = useState("");
+
+  useEffect(() => {
+    // Extract URL details whenever the location changes
+    const path = location.pathname;
+
+    // Update state
+    setPath(path);
+  }, [location]);
+
   return (
     <header id="header" className="fixed-top d-flex align-items-center">
       <div className="container d-flex align-items-center justify-content-between">
@@ -16,17 +28,30 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <a className="nav-link scrollto active" href="./">
+              <a
+                className={`nav-link scrollto ${path == "/" ? "active" : ""}`}
+                href="./"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="about">
+              <a
+                className={`nav-link scrollto ${
+                  path == "/about" ? "active" : ""
+                }`}
+                href="about"
+              >
                 About Us
               </a>
             </li>
             <li className="dropdown">
-              <a href="team">
+              <a
+                className={`nav-link scrollto ${
+                  path == "/team" ? "active" : ""
+                }`}
+                href="team"
+              >
                 <span>Meet the Team</span>{" "}
                 <i className="bi bi-chevron-down"></i>
               </a>
@@ -59,12 +84,22 @@ function Header() {
               </ul>
             </li>
             <li>
-              <a className="nav-link scrollto" href="blog">
+              <a
+                className={`nav-link scrollto ${
+                  path == "/blog" ? "active" : ""
+                }`}
+                href="blog"
+              >
                 Blog
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="sponsors">
+              <a
+                className={`nav-link scrollto ${
+                  path == "/sponsors" ? "active" : ""
+                }`}
+                href="sponsors"
+              >
                 Sponsors
               </a>
             </li>

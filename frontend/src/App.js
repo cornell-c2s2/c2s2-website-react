@@ -14,12 +14,14 @@ import About from "./components/about.js";
 import Sponsors from "./components/sponsors.js";
 import Apply from "./components/apply.js";
 import Team from "./components/team.js";
+import Chip from "./components/chip.js";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
+        <Route path="/chip-gallery" element={<Chip />} />
         <Route path="/about" element={<About />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/team" element={<Team />} />

@@ -15,9 +15,25 @@ function Home() {
                   semiconductor design
                 </h2>
                 <div>
-                  <a href="./blog" className="btn-get-started scrollto">
-                    Check Out Our Blog!
+                  <a href="/blog" className="btn-get-started scrollto">
+                    C2S2 Blogs
                   </a>
+                  <div>
+                    <a
+                      href="https://news.cornell.edu/stories/2024/05/students-revive-classic-microchip-fabrication-open-source-tools"
+                      class="btn-get-started scrollto"
+                    >
+                      Cornell Chronicle - Micro Chip
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://news.cornell.edu/stories/2024/11/cornell-microchip-designers-inspire-students-fox-hunt"
+                      class="btn-get-started scrollto"
+                    >
+                      Cornell Chronicle - Fox Hunt Event
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 hero-img">

@@ -49,31 +49,31 @@ function Footer() {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="./">Home</a>
+                  <i className="bx bx-chevron-right"></i> <a href="/">Home</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="chip-gallery">Chip Gallery</a>
+                  <a href="/chip-gallery">Chip Gallery</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="about">About Us</a>
+                  <a href="/about">About Us</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="team">Meet the Team</a>
+                  <a href="/team">Meet the Team</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="blog">Blog</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="sponsors">Sponsors</a>
+                  <a href="/sponsors">Sponsors</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="apply">Apply</a>
+                  <a href="/apply">Apply</a>
                 </li>
               </ul>
             </div>

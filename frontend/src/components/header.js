@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 function Header() {
   const location = useLocation();
   const [path, setPath] = useState("");
+  const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
     // Extract URL details whenever the location changes
@@ -20,17 +21,17 @@ function Header() {
     <header id="header" className="fixed-top d-flex align-items-center">
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
-          <a href="./">
+          <a href="/">
             <img src={logo} alt="C2S2 Logo" className="img-fluid" />
           </a>
         </div>
 
-        <nav id="navbar" className="navbar">
+        <nav id="navbar" className={mobile ? "navbar navbar-mobile" : "navbar"}>
           <ul>
             <li>
               <a
                 className={`nav-link scrollto ${path == "/" ? "active" : ""}`}
-                href="./"
+                href="/"
               >
                 Home
               </a>
@@ -38,9 +39,9 @@ function Header() {
             <li>
               <a
                 className={`nav-link scrollto ${
-                  path == "/chip-galllery" ? "active" : ""
+                  path == "/chip-gallery" ? "active" : ""
                 }`}
-                href="chip-gallery"
+                href="/chip-gallery"
               >
                 Chip Gallery
               </a>
@@ -50,7 +51,7 @@ function Header() {
                 className={`nav-link scrollto ${
                   path == "/about" ? "active" : ""
                 }`}
-                href="about"
+                href="/about"
               >
                 About Us
               </a>
@@ -60,34 +61,34 @@ function Header() {
                 className={`nav-link scrollto ${
                   path == "/team" ? "active" : ""
                 }`}
-                href="team"
+                href="/team"
               >
                 <span>Meet the Team</span>{" "}
                 <i className="bi bi-chevron-down"></i>
               </a>
               <ul>
                 <li>
-                  <a className="nav-link scrollto" href="team#digital">
+                  <a className="nav-link scrollto" href="/team#digital">
                     Digital
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team#analog">
+                  <a className="nav-link scrollto" href="/team#analog">
                     Analog
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team#software">
+                  <a className="nav-link scrollto" href="/team#software">
                     Software
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team#sys-arch">
+                  <a className="nav-link scrollto" href="/team#sys-arch">
                     System Architecture
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="team#proj-man">
+                  <a className="nav-link scrollto" href="/team#proj-man">
                     Project Management
                   </a>
                 </li>
@@ -98,7 +99,7 @@ function Header() {
                 className={`nav-link scrollto ${
                   path == "/blog" ? "active" : ""
                 }`}
-                href="blog"
+                href="/blog"
               >
                 Blog
               </a>
@@ -108,18 +109,21 @@ function Header() {
                 className={`nav-link scrollto ${
                   path == "/sponsors" ? "active" : ""
                 }`}
-                href="sponsors"
+                href="/sponsors"
               >
                 Sponsors
               </a>
             </li>
             <li>
-              <a className="getstarted scrollto" href="apply">
+              <a className="getstarted scrollto" href="/apply">
                 Apply
               </a>
             </li>
           </ul>
-          <i className="bi bi-list mobile-nav-toggle"></i>
+          <i
+            onClick={() => setMobile(!mobile)}
+            className={`bi mobile-nav-toggle ${mobile ? "bi-x" : "bi-list"}`}
+          ></i>
         </nav>
       </div>
     </header>

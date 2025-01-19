@@ -1,9 +1,58 @@
 import React from "react";
 
-//thumbnails
+//thumbnails - FA24
 import vayunDigitalThumbnail from '../blogposts/FA24/thumbnails/VayunDigital.png';
 import unboxingThumbnail from '../blogposts/FA24/thumbnails/unboxing.png';
 import groundUpThumbnail from '../blogposts/FA24/thumbnails/groundUp.png';
+
+//thumbnails - SP24
+import ASICDesignFlowThumbnail from '../blogposts/SP24/thumbnails/ASICDesignFlow.png';
+import ChipChatterThumbnail from '../blogposts/SP24/thumbnails/ChipChatter.png';
+import chooseFighterThumbnail from '../blogposts/SP24/thumbnails/chooseFighter.png';
+import CMakeThumbnail from '../blogposts/SP24/thumbnails/CMake.png';
+import GDSThumbnail from '../blogposts/SP24/thumbnails/GDS.png';
+import ImgSiliconThumbnail from '../blogposts/SP24/thumbnails/ImgSilicon.png';
+import MagicThumbnail from '../blogposts/SP24/thumbnails/Magic.png';
+import NotEasyThumbnail from '../blogposts/SP24/thumbnails/NotEasy.png';
+import OverCloudThumbnail from '../blogposts/SP24/thumbnails/OverCloud.png';
+import ScrubJayThumbnail from '../blogposts/SP24/thumbnails/ScrubJay.png';
+import TechnicalPMThumbnail from '../blogposts/SP24/thumbnails/TechnicalPM.png';
+import TwoWorldsThumbnail from '../blogposts/SP24/thumbnails/TwoWorlds.png';
+import VerifyBetterFFTThumbnail from '../blogposts/SP24/thumbnails/VerifyBetterFFT.png';
+
+//thumbnails - FA23
+import ABlinkSiliconsPotentialThumbnail from '../blogposts/FA23/thumbnails/ABlinkIntoSiliconsPotential.png';
+import ChippingAwayAtChallengesThumbnail from '../blogposts/FA23/thumbnails/ChippingAwayAtChallenges.png';
+import DesigningAndSynthesizingABetterFFTThumbnail from '../blogposts/FA23/thumbnails/DesigningAndSynthesizingABetterFFT.png';
+import DigitalArtThumbnail from '../blogposts/FA23/thumbnails/DigitalArt.png';
+import ElectronicDesignAutomationThumbnail from '../blogposts/FA23/thumbnails/ElectronicDesignAutomation.png';
+import FromSandToSiliconThumbnail from '../blogposts/FA23/thumbnails/FromSandToSilicon.png';
+import HelloWorldThumbnail from '../blogposts/FA23/thumbnails/HelloWorld.png';
+import IterativeVsUnrolledCalculationsThumbnail from '../blogposts/FA23/thumbnails/IterativeVsUnrolledCalculations.png';
+import MallocFromScratchThumbnail from '../blogposts/FA23/thumbnails/MallocFromScratch.png';
+import PCBDesignThumbnail from '../blogposts/FA23/thumbnails/PCBDesign.png';
+import RepresentingNumbersInHardwareThumbnail from '../blogposts/FA23/thumbnails/RepresentingNumbersInHardware.png';
+import TestAndValOfPCBThumbnails from '../blogposts/FA23/thumbnails/TestAndValOfPCBs.png';
+import TheAnalogSubteamProcessFlowThumbnail from '../blogposts/FA23/thumbnails/TheAnalogSubteamProcessFlow.png';
+import UnravelingBirdSoundsWithSpectrogramsThumbnail from '../blogposts/FA23/thumbnails/UnravelingBirdSoundsWithSpectrograms.png';
+
+//thumbnails - SP23
+import AnalogMultiplexerThumbnail from '../blogposts/SP23/thumbnails/AnalogMultiplexer.png';
+import ConstantGmCurrentReferenceTapeInThumbnail from '../blogposts/SP23/thumbnails/ConstantGmCurrentReferenceTapeIn.png';
+import CrashDetectorsCalculatorsThumbnail from '../blogposts/SP23/thumbnails/CrashDetectorsCalculators.png';
+import DeserializerAndTapeOutUpdateThumbnail from '../blogposts/SP23/thumbnails/DeserializerAndTapeOutUpdate.png';
+import ISPIThumbnail from '../blogposts/SP23/thumbnails/ISPI.png';
+import MagicVLSIvsCadenceVirtuosoThumbnail from '../blogposts/SP23/thumbnails/MagicVLSIvsCadenceVirtuoso.png';
+import ProgressReportThumbnail from '../blogposts/SP23/thumbnails/ProgressReport.png';
+import ProgressReport4_23_23Thumbnail from '../blogposts/SP23/thumbnails/ProgressReport4_23_23.png';
+import ProgressReportMarch2023Thumbnail from '../blogposts/SP23/thumbnails/ProgressReportMarch2023.png';
+import SiliconForScrubJaysThumbnail from '../blogposts/SP23/thumbnails/SiliconForScrubJays.png';
+import SoftwareAndRelativePositionEstimatorThumbnail from '../blogposts/SP23/thumbnails/SoftwareAndRelativePositionEstimator.png';
+import SPIMinionAdapterPythonToolsThumbnail from '../blogposts/SP23/thumbnails/SPIMinion-Adapter-PythonTools.png';
+import SystemArchitectureBlogPostThumbnail from '../blogposts/SP23/thumbnails/SystemArchitectureBlogPost.png';
+import SystemArchitectureProgressReportThumbnail from '../blogposts/SP23/thumbnails/SystemArchitectureProgressReport.png';
+import TheProcessOfAcquiringSponsorsThumbnail from '../blogposts/SP23/thumbnails/TheProcessOfAcquiringSponsors.png';
+import TwoSidesOfACoinThumbnail from '../blogposts/SP23/thumbnails/TwoSidesOfACoin.png';
 
 function Blog() {
     return (
@@ -73,7 +122,7 @@ function Blog() {
                     </div>
                     
 
-                    {/*
+                    
                     <div class="section-title">
                         <p>Spring 2024</p>
                     </div>
@@ -84,7 +133,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/TechnicalPM.html">
-                                    <img src="blogposts/SP24/thumbnails/TechnicalPM.png" class="img-fluid" alt="">
+                                    <img src= {TechnicalPMThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Sync & Innovate: Technical PM Applied</h4>
@@ -99,7 +148,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/VerifyBetterFFT.html">
-                                    <img src="blogposts/SP24/thumbnails/VerifyBetterFFT.png" class="img-fluid" alt="">
+                                    <img src= {VerifyBetterFFTThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Synthesizing and Verifying a Better FFT</h4>
@@ -115,7 +164,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/ASICDesignFlow.html">
-                                    <img src="blogposts/SP24/thumbnails/ASICDesignFlow.png" class="img-fluid" alt="">
+                                    <img src= {ASICDesignFlowThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>From Idea to Chip: ASIC Design Flow</h4>
@@ -130,7 +179,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/ImgSilicon.html">
-                                    <img src="blogposts/SP24/thumbnails/ImgSilicon.png" class="img-fluid" alt="">
+                                    <img src={ImgSiliconThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Room at the Bottom: Imaging Silicon</h4>
@@ -145,7 +194,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/Magic.html">
-                                    <img src="blogposts/SP24/thumbnails/Magic.png" class="img-fluid" alt="">
+                                    <img src={MagicThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Doing Magic in Magic VLSI </h4>
@@ -160,7 +209,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/CMake.html">
-                                    <img src="blogposts/SP24/thumbnails/CMake.png" class="img-fluid" alt="">
+                                    <img src={CMakeThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>C-Making a Build System</h4>
@@ -175,7 +224,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/OverCloud.html">
-                                    <img src="blogposts/SP24/thumbnails/OverCloud.png" class="img-fluid" alt="">
+                                    <img src={OverCloudThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Over-the-Cloud Communication using the Particle Argon</h4>
@@ -190,7 +239,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/ChipChatter.html">
-                                    <img src="blogposts/SP24/thumbnails/ChipChatter.png" class="img-fluid" alt="">
+                                    <img src={ChipChatterThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Chip Chatter</h4>
@@ -206,7 +255,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/ScrubJay.html">
-                                    <img src="blogposts/SP24/thumbnails/ScrubJay.png" class="img-fluid" alt="">
+                                    <img src={ScrubJayThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>How to Know a Scrub Jay is a Scrub Jay</h4>
@@ -221,7 +270,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/TwoWorlds.html">
-                                    <img src="blogposts/SP24/thumbnails/TwoWorlds.png" class="img-fluid" alt="">
+                                    <img src= {TwoWorldsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Bridging Two Worlds: Analog-to-Digital Converters</h4>
@@ -236,7 +285,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/GDS.html">
-                                    <img src="blogposts/SP24/thumbnails/GDS.png" class="img-fluid" alt="">
+                                    <img src= {GDSThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>GDS Chip Art</h4>
@@ -251,7 +300,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/chooseFighter.html">
-                                    <img src="blogposts/SP24/thumbnails/chooseFighter.png" class="img-fluid" alt="">
+                                    <img src= {chooseFighterThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>KiCad vs. Altium: Choosing Your Fighter!</h4>
@@ -267,7 +316,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP24/NotEasy">
-                                    <img src="blogposts/SP24/thumbnails/NotEasy.png" class="img-fluid" alt="">
+                                    <img src= {NotEasyThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Making Chips is NOT Easy</h4>
@@ -280,7 +329,7 @@ function Blog() {
 
 
                     </div>
-
+                    
                     <div class="section-title">
                         <p>Fall 2023</p>
                     </div>
@@ -291,7 +340,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/PCBDesign">
-                                    <img src="blogposts/FA23/thumbnails/PCBDesign.png" class="img-fluid" alt="">
+                                    <img src={PCBDesignThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>PCB Design: "There's Layers To It"</h4>
@@ -306,7 +355,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/DesigningAndSynthesizingABetterFFT">
-                                    <img src="blogposts/FA23/thumbnails/DesigningAndSynthesizingABetterFFT.png" class="img-fluid" alt="">
+                                    <img src= {DesigningAndSynthesizingABetterFFTThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Designing and Synthesizing a Better FFT</h4>
@@ -321,7 +370,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/TestAndValOfPCBs">
-                                    <img src="blogposts/FA23/thumbnails/TestAndValOfPCBs.png" class="img-fluid" alt="">
+                                    <img src= {TestAndValOfPCBThumbnails} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Testing and Validation of Printed Circuit Boards</h4>
@@ -336,7 +385,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/ChippingAwayAtChallenges">
-                                    <img src="blogposts/FA23/thumbnails/ChippingAwayAtChallenges.png" class="img-fluid" alt="">
+                                    <img src= {ChippingAwayAtChallengesThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Chipping Away at Challenges: Drafting a Roadmap</h4>
@@ -351,7 +400,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/ElectronicDesignAutomation">
-                                    <img src="blogposts/FA23/thumbnails/ElectronicDesignAutomation.png" class="img-fluid" alt="">
+                                    <img src={ElectronicDesignAutomationThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Electronic Design Automation: Creating Computers from Code</h4>
@@ -366,7 +415,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/UnravelingBirdSoundsWithSpectrograms">
-                                    <img src="blogposts/FA23/thumbnails/UnravelingBirdSoundsWithSpectrograms.png" class="img-fluid" alt="">
+                                    <img src= {UnravelingBirdSoundsWithSpectrogramsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Unraveling Bird Sounds with Spectrograms</h4>
@@ -381,7 +430,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/IterativeVsUnrolledCalculations">
-                                    <img src="blogposts/FA23/thumbnails/IterativeVsUnrolledCalculations.png" class="img-fluid" alt="">
+                                    <img src= {IterativeVsUnrolledCalculationsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Iterative vs. Unrolled Calculations</h4>
@@ -396,7 +445,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/DigitalArt">
-                                    <img src="blogposts/FA23/thumbnails/DigitalArt.png" class="img-fluid" alt="">
+                                    <img src={DigitalArtThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Digital Art: Principles Of Digital Circuit Design</h4>
@@ -411,7 +460,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/HelloWorld">
-                                    <img src="blogposts/FA23/thumbnails/HelloWorld.png" class="img-fluid" alt="">
+                                    <img src= {HelloWorldThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Hello World! New Updates on Sponsorship Packet and Newsletter</h4>
@@ -426,7 +475,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/MallocFromScratch">
-                                    <img src="blogposts/FA23/thumbnails/MallocFromScratch.png" class="img-fluid" alt="">
+                                    <img src= {MallocFromScratchThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Malloc from Scratch: Diving into Memory's Secret Keeper</h4>
@@ -441,7 +490,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/FromSandToSilicon">
-                                    <img src="blogposts/FA23/thumbnails/FromSandToSilicon.png" class="img-fluid" alt="">
+                                    <img src= {FromSandToSiliconThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>From Sand To Silicon: ASICs and FPGAs Explained</h4>
@@ -456,7 +505,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/ABlinkIntoSiliconsPotential">
-                                    <img src="blogposts/FA23/thumbnails/ABlinkIntoSiliconsPotential.png" class="img-fluid" alt="">
+                                    <img src= {ABlinkSiliconsPotentialThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>A Blink Into Silicon's Potential</h4>
@@ -471,7 +520,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/RepresentingNumbersInHardware">
-                                    <img src="blogposts/FA23/thumbnails/RepresentingNumbersInHardware.png" class="img-fluid" alt="">
+                                    <img src= {RepresentingNumbersInHardwareThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Representing Numbers In Hardware</h4>
@@ -486,7 +535,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/FA23/TheAnalogSubteamProcessFlow">
-                                    <img src="blogposts/FA23/thumbnails/TheAnalogSubteamProcessFlow.png" class="img-fluid" alt="">
+                                    <img src= {TheAnalogSubteamProcessFlowThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>The Analog Subteam Process Flow</h4>
@@ -509,7 +558,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/SystemArchitectureBlogPost">
-                                    <img src="blogposts/SP23/thumbnails/SystemArchitectureBlogPost.png" class="img-fluid" alt="">
+                                    <img src= {SystemArchitectureBlogPostThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>System Architecture Blog Post</h4>
@@ -524,7 +573,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/DeserializerAndTapeOutUpdate">
-                                    <img src="blogposts/SP23/thumbnails/DeserializerAndTapeOutUpdate.png" class="img-fluid" alt="">
+                                    <img src=  {DeserializerAndTapeOutUpdateThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Deserializer and Tape-Out Update</h4>
@@ -539,7 +588,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/TwoSidesOfACoin">
-                                    <img src="blogposts/SP23/thumbnails/TwoSidesOfACoin.png" class="img-fluid" alt="">
+                                    <img src= {TwoSidesOfACoinThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Two Sides Of A Coin: How Modules on a Chip Communicate</h4>
@@ -554,7 +603,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/MagicVLSIvsCadenceVirtuoso">
-                                    <img src="blogposts/SP23/thumbnails/MagicVLSIvsCadenceVirtuoso.png" class="img-fluid" alt="">
+                                    <img src= {MagicVLSIvsCadenceVirtuosoThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Magic VLSI vs. Cadence Virtuoso</h4>
@@ -569,7 +618,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/ProgressReport4_23_23">
-                                    <img src="blogposts/SP23/thumbnails/ProgressReport4_23_23.png" class="img-fluid" alt="">
+                                    <img src= {ProgressReport4_23_23Thumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Progress Report - 4/23/2023</h4>
@@ -584,7 +633,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/SoftwareAndRelativePositionEstimator">
-                                    <img src="blogposts/SP23/thumbnails/SoftwareAndRelativePositionEstimator.png" class="img-fluid" alt="">
+                                    <img src= {SoftwareAndRelativePositionEstimatorThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Software and Relative Position Estimator</h4>
@@ -599,7 +648,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/SPIMinion-Adapter-PythonTools">
-                                    <img src="blogposts/SP23/thumbnails/SPIMinion-Adapter-PythonTools.png" class="img-fluid" alt="">
+                                    <img src= {SPIMinionAdapterPythonToolsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>SPI Minion, Adapter, & Python Tools</h4>
@@ -614,7 +663,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/SiliconForScrubJays">
-                                    <img src="blogposts/SP23/thumbnails/SiliconForScrubJays.png" class="img-fluid" alt="">
+                                    <img src= {SiliconForScrubJaysThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Silicon For Scrubs Jays</h4>
@@ -629,7 +678,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/AnalogMultiplexer">
-                                    <img src="blogposts/SP23/thumbnails/AnalogMultiplexer.png" class="img-fluid" alt="">
+                                    <img src= {AnalogMultiplexerThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Analog Multiplexer</h4>
@@ -644,7 +693,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/ISPI">
-                                    <img src="blogposts/SP23/thumbnails/ISPI.png" class="img-fluid" alt="">
+                                    <img src= {ISPIThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>I SPI</h4>
@@ -659,7 +708,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/CrashDetectors&Calculators">
-                                    <img src="blogposts/SP23/thumbnails/CrashDetectors&Calculators.png" class="img-fluid" alt="">
+                                    <img src= {CrashDetectorsCalculatorsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Crash Detectors & Calculators</h4>
@@ -674,7 +723,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/SystemArchitectureProgressReport">
-                                    <img src="blogposts/SP23/thumbnails/SystemArchitectureProgressReport.png" class="img-fluid" alt="">
+                                    <img src = {SystemArchitectureProgressReportThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>System Architecture Progress Report</h4>
@@ -689,7 +738,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/ProgressReportMarch2023">
-                                    <img src="blogposts/SP23/thumbnails/ProgressReportMarch2023.png" class="img-fluid" alt="">
+                                    <img src= {ProgressReportMarch2023Thumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Progress Report - March 2023</h4>
@@ -704,7 +753,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/TheProcessOfAcquiringSponsors">
-                                    <img src="blogposts/SP23/thumbnails/TheProcessOfAcquiringSponsors.png" class="img-fluid" alt="">
+                                    <img src= {TheProcessOfAcquiringSponsorsThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>The Process of Acquiring Sponsors</h4>
@@ -719,7 +768,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/ProgressReport">
-                                    <img src="blogposts/SP23/thumbnails/ProgressReport.png" class="img-fluid" alt="">
+                                    <img src= {ProgressReportThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Progress Report</h4>
@@ -734,7 +783,7 @@ function Blog() {
                             data-aos-delay="200">
                             <div class="post">
                                 <a href="blogposts/SP23/ConstantGmCurrentReferenceTapeIn">
-                                    <img src="blogposts/SP23/thumbnails/ConstantGmCurrentReferenceTapeIn.png" class="img-fluid" alt="">
+                                    <img src= {ConstantGmCurrentReferenceTapeInThumbnail} class="img-fluid" alt=""/>
                                         <div class="post-info">
                                             <div class="post-info-content">
                                                 <h4>Constant-g<sub>m</sub> Current Reference Tape-In</h4>
@@ -745,7 +794,6 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    */}
                 </div> 
             </section>
         </main>

@@ -16,6 +16,9 @@ import Apply from "./components/apply.js";
 import Team from "./components/team.js";
 import ChipGallery from "./components/chipgallery.js";
 import Chip from "./components/chip.js";
+import Blog from "./components/blog.js";
+
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
         <Route path="/chip-gallery" element={<ChipGallery />} />
         <Route path="/chip-gallery/:chip" element={<Chip />} />
         <Route path="/about" element={<About />} />
+        <Route path = "/blog" element = {<Blog />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/team" element={<Team />} />
         <Route path="/apply" element={<Apply />} />

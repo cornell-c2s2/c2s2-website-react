@@ -566,11 +566,13 @@ function Team() {
       <section>
         <div className="container">
           <div className="section-title" data-aos="fade-up">
-            <div className="row justify-content-center">
-              {AlumniInfo.map((alumni) => {
-                return Alumni(alumni);
-              })}
-            </div>
+            {/* <i className="bi bi-clipboard-check"></i> */}
+            <p>Alumni</p>
+          </div>
+          <div className="row justify-content-center">
+            {AlumniInfo.map((alumni) => {
+              return Alumni(alumni);
+            })}
           </div>
         </div>
       </section>
@@ -628,7 +630,7 @@ function TeamMember(prop) {
 
 function Alumni(prop) {
   return (
-    <div>
+    <div className="alumni">
       <div>{prop.first + " " + prop.last}</div>
       <a href={prop.linkedin} target="_blank">
         LinkedIn

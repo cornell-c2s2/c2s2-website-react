@@ -68,29 +68,25 @@ function Header() {
               </a>
               <ul>
                 <li>
-                  <a className="nav-link scrollto" href="/team#digital">
-                    Digital
-                  </a>
+                  <a href="/team#digital">Digital</a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="/team#analog">
-                    Analog
-                  </a>
+                  <a href="/team#analog">Analog</a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="/team#software">
-                    Software
-                  </a>
+                  <a href="/team#software">Software</a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="/team#sys-arch">
-                    System Architecture
-                  </a>
+                  <a href="/team#platforms">Platforms</a>
                 </li>
                 <li>
-                  <a className="nav-link scrollto" href="/team#proj-man">
-                    Project Management
-                  </a>
+                  <a href="/team#soc">Mixed Signal SoC</a>
+                </li>
+                <li>
+                  <a href="/team#rfic">RFIC</a>
+                </li>
+                <li>
+                  <a href="/team#proj-man">Project Management</a>
                 </li>
               </ul>
             </li>

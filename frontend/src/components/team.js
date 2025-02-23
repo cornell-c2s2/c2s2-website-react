@@ -1,45 +1,130 @@
 import React from "react";
 
 //Advisors
-import acm289 from "../assets/img/team/acm289.jpg";
 import cb535 from "../assets/img/team/cb535.jpg";
 import vha3 from "../assets/img/team/vha3.jpg";
+import mibrahim from "../assets/img/team/mibrahim.jpg";
+import akv45 from "../assets/img/team/akv45.jpg";
+import acm289 from "../assets/img/team/acm289.jpg";
 
 //Digital Subteam
-import ayc62 from "../assets/img/team/ayc62.jpg";
-import fl327 from "../assets/img/team/fl327.jpg";
-import deg273 from "../assets/img/team/deg273.jpg";
-import el595 from "../assets/img/team/el595.jpg";
-import eyl47 from "../assets/img/team/eyl47.jpg";
-import jjm469 from "../assets/img/team/jjm469.jpg";
-import kjr64 from "../assets/img/team/kjr64.jpg";
-import noUser from "../assets/img/team/no-user.jpg";
-import vml37 from "../assets/img/team/vml37.jpg";
+import johnnyMartinez from "../assets/img/team/jjm469.jpg";
+import angelicaBian from "../assets/img/team/Anjelica Bian_Digital.jpg";
+import barryLyu from "../assets/img/team/fl327.jpg";
+import emilyLan from "../assets/img/team/Emily Lan_Digital.jpg";
+import demetriosGavalas from "../assets/img/team/deg273.jpg";
+import jimingChen from "../assets/img/team/Jiming Chen_Digital.jpg";
+import arjunSaini from "../assets/img/team/Arjun Saini_Digital.jpg";
+import junSim from "../assets/img/team/IMG_0758.jpg";
+import michaelMcGruder from "../assets/img/team/Michael McGruder_Digital.jpg";
+import nataliaPope from "../assets/img/team/Natalia Pope_Digital.jpg";
+import nathanRakhlin from "../assets/img/team/Nathan Rakhlin_Digital.jpg";
+import simeonTurner from "../assets/img/team/Simeon Turner_Digital.jpg";
+import teanLai from "../assets/img/team/Tean Lai_Digital.jpg";
+import vinayIvaturi from "../assets/img/team/Vinay Ivaturi_Digital.jpg";
 
 //Analog Subteam
-import cx237 from "../assets/img/team/cx237.jpg";
-import dgk64 from "../assets/img/team/dgk64.jpg";
-import dcb277 from "../assets/img/team/dcb277.jpg";
-import jzh8 from "../assets/img/team/jzh8.jpg";
-import txd3 from "../assets/img/team/txd3.jpg";
-import tjf87 from "../assets/img/team/tjf87.jpg";
+import cadenXu from "../assets/img/team/Caden Xu_Analog.jpg";
+import danielKaminski from "../assets/img/team/Daniel Kaminski_Analog.jpg";
+import anishkaRaina from "../assets/img/team/Anishka Raina_Analog.jpg";
+import annaliseThompson from "../assets/img/team/Annalise Thompson_Analog.jpg";
+import lenaAraujo from "../assets/img/team/Lena Araujo_Analog.jpg";
+import sidAhuja from "../assets/img/team/Sid Ahuja_Analog.jpg";
 
-//Software Team
-import ec798 from "../assets/img/team/ec798.jpg";
-import jf679 from "../assets/img/team/jf679.jpg";
+//Software Subteam
+import eliasCastro from "../assets/img/team/ec798.jpg";
+import joyceShen from "../assets/img/team/Joyce Shen_Software.jpg";
+import arnavMuthiayen from "../assets/img/team/Arnav Muthiayen_Software.jpg";
+import jackFrank from "../assets/img/team/Jack Frank_Software.jpg";
 
-//System Architecture Subteam
-import av458 from "../assets/img/team/av458.jpg";
-import cca54 from "../assets/img/team/cca54.jpg";
-import ebc68 from "../assets/img/team/ebc68.jpg";
-import sq86 from "../assets/img/team/sq86.jpg";
+//Platform Subteam
+import alyssaXu from "../assets/img/team/Alyssa Xu_Platforms.jpg";
+import joanneChen from "../assets/img/team/Joanne Chen_Platforms.jpg";
+import josephWan from "../assets/img/team/Joseph Wan_Platforms.jpg";
+import paigeYun from "../assets/img/team/Paige Yun_Platforms.jpg";
+import rachelGodwin from "../assets/img/team/Rachel Goldwin_Platforms.jpg";
+
+//Mixed Signal SoC Subteam
+import akshatiVaishnav from "../assets/img/team/Akshati Vaishnav_SOC.jpg";
+
+//RFIC Subteam
+import taylorDo from "../assets/img/team/Taylor Do_RFIC.jpg";
+import jeffWilcox from "../assets/img/team/Jeff Wilcox_RFIC.jpg";
 
 //Project Management Subteam
-import akv45 from "../assets/img/team/akv45.jpg";
-import amt263 from "../assets/img/team/amt263.jpg";
-import zw286 from "../assets/img/team/zw286.jpg";
+import jasonWang from "../assets/img/team/Jason Wang_PM.jpg";
+import abigailVarghese from "../assets/img/team/akv45.jpg";
+import vayunTiwari from "../assets/img/team/Vayun Tiwari_PM.jpg";
+import anikaSukthankar from "../assets/img/team/Anika Sukthankar_PM.jpg";
+import tanyaDatta from "../assets/img/team/Tanya Datta_PM.jpg";
+import ivanMokeyev from "../assets/img/team/ivan.jpg";
 
 function Team() {
+  const AlumniInfo = [
+    {
+      first: "Aidan",
+      last: "McNay",
+      linkedin: "https://www.linkedin.com/in/aidan-mcnay-0ba928201/",
+    },
+    {
+      first: "Thomas",
+      last: "Figura",
+      linkedin: "https://www.linkedin.com/in/tjf87/",
+    },
+    {
+      first: "Jon",
+      last: "Ho",
+      linkedin: "https://www.linkedin.com/in/jon-ho-656156140/",
+    },
+    {
+      first: "Ena",
+      last: "Jovanovic",
+      linkedin: "https://www.linkedin.com/in/ena-jovanovi%C4%87-2356a4311/",
+    },
+    {
+      first: "Ethan",
+      last: "Gabizon",
+      linkedin: "https://www.linkedin.com/in/ethan-gabizon/",
+    },
+    {
+      first: "Jay",
+      last: "Patel",
+      linkedin: "https://www.linkedin.com/in/jay-patel--/",
+    },
+    {
+      first: "Kene",
+      last: "Chukwuma",
+      linkedin: "https://www.linkedin.com/in/kene-cornell/",
+    },
+    { first: "Mattie", last: "Lee", linkedin: "" },
+    {
+      first: "Michael",
+      last: "Wei",
+      linkedin: "https://www.linkedin.com/in/wmich/",
+    },
+    { first: "Setor", last: "Simpri", linkedin: "" },
+    {
+      first: "Tomas",
+      last: "Choi",
+      linkedin: "https://www.linkedin.com/in/tomas-choi-913189240/",
+    },
+    {
+      first: "Vicky",
+      last: "Le",
+      linkedin: "https://www.linkedin.com/in/vicky-m-le/",
+    },
+    {
+      first: "Angela",
+      last: "Cui",
+      linkedin: "https://www.linkedin.com/in/angela-cui-575702214/",
+    },
+    {
+      first: "Edmund",
+      last: "Lam",
+      linkedin: "https://www.linkedin.com/in/lam-edmund/",
+    },
+  ];
+
   return (
     <main id="main">
       <section id="team" className="breadcrumbs">
@@ -60,27 +145,39 @@ function Team() {
 
           <div className="row justify-content-center">
             <TeamMember
-              name="Aidan McNay"
-              role="Team Lead"
-              img={acm289}
-              github="https://github.com/Aidan-McNay"
-              linkedin="https://www.linkedin.com/in/aidan-mcnay-0ba928201/"
-            />
-
-            <TeamMember
               name="Prof. Christopher Batten"
               role="Faculty Advisor"
               img={cb535}
               github=""
-              linkedin="https://www.engineering.cornell.edu/faculty-directory/christopher-batten"
+              linkedin=""
             />
-
             <TeamMember
               name="Prof. Hunter Adams"
               role="Faculty Advisor"
               img={vha3}
               github=""
-              linkedin="https://www.engineering.cornell.edu/faculty-directory/hunter-adams"
+              linkedin=""
+            />
+            <TeamMember
+              name="Prof. Mohamed I. Ibrahim"
+              role="Faculty Advisor"
+              img={mibrahim}
+              github=""
+              linkedin=""
+            />
+            <TeamMember
+              name="Abigail Varghese"
+              role="Team Lead"
+              img={akv45}
+              github=""
+              linkedin="https://www.linkedin.com/in/abigail-varghese-589b49244/"
+            />
+            <TeamMember
+              name="Aidan McNay"
+              role="Former Team Lead"
+              img={acm289}
+              github="https://github.com/Aidan-McNay"
+              linkedin="https://www.linkedin.com/in/aidan-mcnay-0ba928201/"
             />
           </div>
         </div>
@@ -94,9 +191,17 @@ function Team() {
 
           <div className="row justify-content-center">
             <TeamMember
-              name="Angela Cui"
-              role=""
-              img={ayc62}
+              name="Johnny Martinez"
+              role="Digital Subteam Co-Lead"
+              img={johnnyMartinez}
+              github="https://github.com/jjm469"
+              linkedin="https://www.linkedin.com/in/johnny-martinez469/"
+            />
+
+            <TeamMember
+              name="Angelica Bian"
+              role="Digital Subteam Co-Lead"
+              img={angelicaBian}
               github=""
               linkedin=""
             />
@@ -104,65 +209,97 @@ function Team() {
             <TeamMember
               name="Barry Lyu"
               role=""
-              img={fl327}
+              img={barryLyu}
               github=""
-              linkedin=""
-            />
-
-            <TeamMember
-              name="Demetrios Gavalas"
-              role=""
-              img={deg273}
-              github=""
-              linkedin=""
-            />
-
-            <TeamMember
-              name="Edmund Lam"
-              role="Digital Subteam Co-Lead"
-              img={el595}
-              github="https://github.com/UnsignedByte"
               linkedin=""
             />
 
             <TeamMember
               name="Emily Lan"
               role=""
-              img={eyl47}
+              img={emilyLan}
               github=""
               linkedin="https://www.linkedin.com/in/emily-lan-ca/"
             />
 
             <TeamMember
-              name="Johnny Martinez"
-              role="Digital Subteam Co-Lead"
-              img={jjm469}
-              github="https://github.com/jjm469"
-              linkedin="https://www.linkedin.com/in/johnny-martinez469/"
-            />
-
-            <TeamMember
-              name="Kevin Rodriguez"
+              name="Demetrios Gavalas"
               role=""
-              img={kjr64}
+              img={demetriosGavalas}
               github=""
               linkedin=""
             />
 
             <TeamMember
-              name="Tomas Choi"
+              name="Jiming Chen"
               role=""
-              img={noUser}
+              img={jimingChen}
               github=""
-              linkedin="https://www.linkedin.com/in/tomas-choi-913189240"
+              linkedin=""
             />
 
             <TeamMember
-              name="Vicky Le"
+              name="Arjun Saini"
               role=""
-              img={vml37}
-              github="https://github.com/VickyLe03"
-              linkedin="https://www.linkedin.com/in/vicky-le-01725125b"
+              img={arjunSaini}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Jun Sim"
+              role=""
+              img={junSim}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Michael McGruder"
+              role=""
+              img={michaelMcGruder}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Natalia Pope"
+              role=""
+              img={nataliaPope}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Nathan Rakhlin"
+              role=""
+              img={nathanRakhlin}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Simeon Turner"
+              role=""
+              img={simeonTurner}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Tean Lai"
+              role=""
+              img={teanLai}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Vinay Ivaturi"
+              role=""
+              img={vinayIvaturi}
+              github=""
+              linkedin=""
             />
           </div>
         </div>
@@ -178,50 +315,50 @@ function Team() {
           <div className="row justify-content-center">
             <TeamMember
               name="Caden Xu"
-              role=""
-              img={cx237}
+              role="Analog Subteam Co-Lead"
+              img={cadenXu}
               github=""
               linkedin=""
             />
 
             <TeamMember
               name="Daniel Kaminski"
-              role=""
-              img={dgk64}
+              role="Analog Subteam Co-Lead"
+              img={danielKaminski}
               github="https://github.com/dgkaminski"
               linkedin="https://www.linkedin.com/in/daniel-kaminski-447785234/"
             />
 
             <TeamMember
-              name="David Bertuch"
+              name="Anishka Raina"
               role=""
-              img={dcb277}
-              github="https://github.com/DavidDavidDavidDavidDavidDavidDavid"
-              linkedin="https://www.linkedin.com/in/david-bertuch/"
-            />
-
-            <TeamMember
-              name="Jon Ho"
-              role=""
-              img={jzh8}
+              img={anishkaRaina}
               github=""
               linkedin=""
             />
 
             <TeamMember
-              name="Taylor Do"
+              name="Annalise Thompson"
               role=""
-              img={txd3}
+              img={annaliseThompson}
               github=""
               linkedin=""
             />
 
             <TeamMember
-              name="Thomas Figura"
-              role="Analog Subteam Lead"
-              img={tjf87}
+              name="Lena Araujo"
+              role=""
+              img={lenaAraujo}
               github=""
-              linkedin="https://www.linkedin.com/in/tjf87"
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Sid Ahuja"
+              role=""
+              img={sidAhuja}
+              github=""
+              linkedin=""
             />
           </div>
         </div>
@@ -237,8 +374,24 @@ function Team() {
           <div className="row justify-content-center">
             <TeamMember
               name="Elias Castro"
+              role="Software Subteam Lead"
+              img={eliasCastro}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Joyce Shen"
               role=""
-              img={ec798}
+              img={joyceShen}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Arnav Muthiayen"
+              role=""
+              img={arnavMuthiayen}
               github=""
               linkedin=""
             />
@@ -246,7 +399,7 @@ function Team() {
             <TeamMember
               name="Jack Frank"
               role=""
-              img={jf679}
+              img={jackFrank}
               github="https://github.com/frank-jack"
               linkedin="https://www.linkedin.com/in/jack-frank-4a9897245/"
             />
@@ -254,42 +407,96 @@ function Team() {
         </div>
       </section>
 
-      <section id="sys-arch" className="team">
-        <div className="container">
-          <div className="section-title" data-aos="fade-up">
-            <i className="bi bi-router"></i>
-            <p>System Architecture Subteam</p>
+      <section id="platforms" class="team">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <i class="bi bi-code-slash"></i>
+            <p>Platforms Subteam</p>
+          </div>
+        </div>
+
+        <div className="row justify-content-center">
+          <TeamMember
+            name="Alyssa Xu"
+            role="Platforms Subteam Lead"
+            img={alyssaXu}
+            github=""
+            linkedin=""
+          />
+
+          <TeamMember
+            name="Joanne Chen"
+            role=""
+            img={joanneChen}
+            github=""
+            linkedin=""
+          />
+
+          <TeamMember
+            name="Joseph Wan"
+            role=""
+            img={josephWan}
+            github=""
+            linkedin=""
+          />
+
+          <TeamMember
+            name="Paige Yun"
+            role=""
+            img={paigeYun}
+            github=""
+            linkedin=""
+          />
+
+          <TeamMember
+            name="Rachel Godwin"
+            role=""
+            img={rachelGodwin}
+            github=""
+            linkedin=""
+          />
+        </div>
+      </section>
+
+      <section id="soc" class="team">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <i class="bi bi-router"></i>
+            <p>Mixed Signal SoC Subteam</p>
           </div>
 
-          <div className="row justify-content-center">
+          <div class="row justify-content-center">
             <TeamMember
               name="Akshati Vaishnav"
-              role="System Architecture Subteam Co-Lead"
-              img={av458}
+              role="Mixed Signal SoC Subteam Lead"
+              img={akshatiVaishnav}
+              github=""
+              linkedin=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="rfic" class="team">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <i class="bi bi-router"></i>
+            <p>RFIC Subteam</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <TeamMember
+              name="Taylor Do"
+              role="RFIC Lead"
+              img={taylorDo}
               github=""
               linkedin=""
             />
 
             <TeamMember
-              name="Chimdi Anude"
-              role="System Architecture Subteam Co-Lead"
-              img={cca54}
-              github=""
-              linkedin="https://www.linkedin.com/in/chimdi-anude/"
-            />
-
-            <TeamMember
-              name="Kene Chukwuma-Orakwe"
+              name="Jeff Wilcox"
               role=""
-              img={ebc68}
-              github="https://github.com/Kndlch"
-              linkedin="https://www.linkedin.com/in/kene-cornell"
-            />
-
-            <TeamMember
-              name="Sherri Qazi"
-              role=""
-              img={sq86}
+              img={jeffWilcox}
               github=""
               linkedin=""
             />
@@ -306,28 +513,64 @@ function Team() {
 
           <div className="row justify-content-center">
             <TeamMember
-              name="Abigail Varghese"
+              name="Jason Wang"
               role="Project Management Subteam Lead"
-              img={akv45}
-              github=""
-              linkedin="https://www.linkedin.com/in/abigail-varghese-589b49244"
-            />
-
-            <TeamMember
-              name="Adele Thompson"
-              role=""
-              img={amt263}
+              img={jasonWang}
               github=""
               linkedin=""
             />
 
             <TeamMember
-              name="Jason Wang"
+              name="Abigail Varghese"
               role=""
-              img={zw286}
+              img={abigailVarghese}
               github=""
-              linkedin="https://www.linkedin.com/in/zhihanjasonwang/"
+              linkedin="www.linkedin.com/in/abigail-varghese-589b49244"
             />
+
+            <TeamMember
+              name="Vayun Tiwari"
+              role=""
+              img={vayunTiwari}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Anika Sukthankar"
+              role=""
+              img={anikaSukthankar}
+              github=""
+              linkedin=""
+            />
+
+            <TeamMember
+              name="Tanya Datta"
+              role=""
+              img={tanyaDatta}
+              github=""
+              linkedin="https://www.linkedin.com/in/tanya-datta-5966a028a/"
+            />
+
+            <TeamMember
+              name="Iván Mokeyev"
+              role=""
+              img={ivanMokeyev}
+              github=""
+              linkedin=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <div className="row justify-content-center">
+              {AlumniInfo.map((alumni) => {
+                return Alumni(alumni);
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -379,6 +622,17 @@ function TeamMember(prop) {
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+function Alumni(prop) {
+  return (
+    <div>
+      <div>{prop.first + " " + prop.last}</div>
+      <a href={prop.linkedin} target="_blank">
+        LinkedIn
+      </a>
     </div>
   );
 }

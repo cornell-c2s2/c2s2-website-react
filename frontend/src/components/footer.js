@@ -142,7 +142,7 @@ function Footer() {
         </div>
         <div className="credits">
           Designed by{" "}
-          <a href="https://cornellwebdevclub.com/">Cornell Webdev</a>
+          <a href="https://www.linkedin.com/in/nicholaschanng/">Nick</a>
         </div>
       </div>
     </footer>

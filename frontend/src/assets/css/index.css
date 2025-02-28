@@ -1321,6 +1321,138 @@ section {
   transition: left ease-in-out 0.3s;
 }
 
+.alumni-section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.title-divider {
+  height: 3px;
+  background-color: #8b0000;
+  margin: 15px auto;
+  width: 100%;
+}
+
+.inner-page {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.inner-page p {
+  font-size: 22px;
+  color: #777;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .alumni-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .alumni-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .alumni-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.alumni-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.alumni-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.avatar span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.linkedin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.no-linkedin {
+  color: #999;
+  font-size: 14px;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.linkedin-link:hover {
+  color: #862020;
+}
+
+.linkedin-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/

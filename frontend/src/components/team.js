@@ -407,61 +407,61 @@ function Team() {
         </div>
       </section>
 
-      <section id="platforms" class="team">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <i class="bi bi-code-slash"></i>
+      <section id="software" className="team">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <i className="bi bi-code-slash"></i>
             <p>Platforms Subteam</p>
           </div>
-        </div>
 
-        <div className="row justify-content-center">
-          <TeamMember
-            name="Alyssa Xu"
-            role="Platforms Subteam Lead"
-            img={alyssaXu}
-            github=""
-            linkedin=""
-          />
+          <div className="row justify-content-center">
+            <TeamMember
+              name="Alyssa Xu"
+              role="Platforms Subteam Lead"
+              img={alyssaXu}
+              github=""
+              linkedin=""
+            />
 
-          <TeamMember
-            name="Joanne Chen"
-            role=""
-            img={joanneChen}
-            github=""
-            linkedin=""
-          />
+            <TeamMember
+              name="Joanne Chen"
+              role=""
+              img={joanneChen}
+              github=""
+              linkedin=""
+            />
 
-          <TeamMember
-            name="Joseph Wan"
-            role=""
-            img={josephWan}
-            github=""
-            linkedin=""
-          />
+            <TeamMember
+              name="Joseph Wan"
+              role=""
+              img={josephWan}
+              github=""
+              linkedin=""
+            />
 
-          <TeamMember
-            name="Paige Yun"
-            role=""
-            img={paigeYun}
-            github=""
-            linkedin=""
-          />
+            <TeamMember
+              name="Paige Yun"
+              role=""
+              img={paigeYun}
+              github=""
+              linkedin=""
+            />
 
-          <TeamMember
-            name="Rachel Godwin"
-            role=""
-            img={rachelGodwin}
-            github=""
-            linkedin=""
-          />
+            <TeamMember
+              name="Rachel Godwin"
+              role=""
+              img={rachelGodwin}
+              github=""
+              linkedin=""
+            />
+          </div>
         </div>
       </section>
 
-      <section id="soc" class="team">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <i class="bi bi-router"></i>
+      <section id="software" className="team">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <i className="bi bi-code-slash"></i>
             <p>Mixed Signal SoC Subteam</p>
           </div>
 
@@ -632,19 +632,8 @@ function TeamMember(prop) {
 }
 
 function Alumni(prop) {
-  // Get initials for the avatar
-  const getInitials = (firstName, lastName) => {
-    return (firstName?.[0] || "") + (lastName?.[0] || "");
-  };
-
-  const initials = getInitials(prop.first, prop.last);
-
   return (
     <div className="alumni-card">
-      <div className="avatar">
-        <span>{initials}</span>
-      </div>
-
       <div className="name">{prop.first + " " + prop.last}</div>
 
       <div className="linkedin-container">

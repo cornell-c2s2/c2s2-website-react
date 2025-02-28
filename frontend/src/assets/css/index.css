@@ -1325,34 +1325,16 @@ section {
   padding: 60px 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section-title {
+.alumni .section-title {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.section-title p {
+.alumni .section-title p {
   font-size: 32px;
   font-weight: bold;
   color: #333;
   margin: 0;
-}
-
-.inner-page {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.inner-page p {
-  font-size: 22px;
-  color: #777;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .alumni-grid {
@@ -1382,7 +1364,6 @@ section {
 
 .alumni-card {
   background-color: white;
-  /* border-radius: 8px; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 20px;
@@ -1393,23 +1374,6 @@ section {
 .alumni-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.avatar {
-  background-color: #f3f4f6;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 15px;
-}
-
-.avatar span {
-  font-size: 24px;
-  font-weight: bold;
-  color: #666;
 }
 
 .name {

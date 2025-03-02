@@ -1325,12 +1325,12 @@ section {
   padding: 60px 0;
 }
 
-.alumni .section-title {
+.alumni-section .section-title {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.alumni .section-title p {
+.alumni-section .section-title p {
   font-size: 32px;
   font-weight: bold;
   color: #333;
@@ -1369,6 +1369,9 @@ section {
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .alumni-card:hover {
@@ -1376,15 +1379,45 @@ section {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.name {
+.alumni-card .name {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #333;
+}
+
+.alumni-card .position {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #862020; /* Using the brand color */
+}
+
+.alumni-card .years {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.alumni-card .major {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.alumni-card .employer {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #444;
+  font-style: italic;
 }
 
 .linkedin-container {
   display: flex;
   justify-content: center;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
 }
 
 .no-linkedin {
@@ -1397,11 +1430,12 @@ section {
   align-items: center;
   text-decoration: none;
   font-size: 14px;
+  color: #0077b5; /* LinkedIn color */
   transition: color 0.2s ease;
 }
 
 .linkedin-link:hover {
-  color: #862020;
+  color: #862020; /* Brand color on hover */
 }
 
 .linkedin-icon {

@@ -141,8 +141,7 @@ function Footer() {
           . All Rights Reserved
         </div>
         <div className="credits">
-          Designed by{" "}
-          <a href="https://www.linkedin.com/in/nicholaschanng/">Nick</a>
+          Made by <a href="/team#proj-man">PM Subteam &lt;3</a>
         </div>
       </div>
     </footer>

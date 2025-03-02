@@ -733,25 +733,79 @@ section {
 # Chip Gallery
 --------------------------------------------------------------*/
 
+/* Main container styling */
 .chip-gallery-container {
-  background-color: white !important;
+  /* background-color: white !important; */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Individual chip item styling */
 .chip-gallery-item {
+  margin-bottom: 2.5rem;
+}
+
+.chip-gallery-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chip-gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Image container and styling */
+.chip-image-container {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-right: 1px solid #eee;
 }
 
-.chip-gallery-item img {
-  width: 250px;
+.chip-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
 }
 
+/* Description area styling */
 .chip-desc {
+  padding: 1.5rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.chip-gallery-item .btn-get-started {
+.chip-title {
+  color: #b31b1b;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.chip-date {
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.chip-text {
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Original Button styling */
+.btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -766,8 +820,85 @@ section {
   width: fit-content;
 }
 
-.chip-gallery-item .btn-get-started:hover {
+.btn-get-started:hover {
   background: #de2424;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chip-image-container {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding: 1rem;
+  }
+
+  .chip-image {
+    max-width: 200px;
+  }
+
+  .chip-desc {
+    padding: 1.25rem;
+  }
+
+  .chip-title {
+    font-size: 1.3rem;
+  }
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Grid system */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.chip-gallery-container .g-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.chip-gallery-container .g-0 > .col-md-4,
+.chip-gallery-container .g-0 > .col-md-8 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.chip-gallery-container .col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.chip-gallery-container .col-md-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+@media (max-width: 768px) {
+  .chip-gallery-container .col-md-4,
+  .chip-gallery-container .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .chip-gallery-container .row {
+    flex-direction: column;
+  }
 }
 
 /*--------------------------------------------------------------

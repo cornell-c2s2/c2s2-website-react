@@ -7,14 +7,14 @@ import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 function ChipGallery() {
   return (
     <main id="main">
-      <section id="about" class="breadcrumbs">
-        <div class="container">
-          <div class="section-title">
+      <section id="about" className="breadcrumbs">
+        <div className="container">
+          <div className="section-title">
             <h1>Chip Gallery</h1>
           </div>
         </div>
       </section>
-      <section>
+      <section className="py-5 bg-light">
         <div className="container chip-gallery-container">
           <ChipComponent
             img={cnf}
@@ -41,7 +41,7 @@ function ChipGallery() {
             img={sparrow}
             name="Sparrow Analog"
             date="Spring 2023"
-            text="The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers â€“ integrated to provide versatile analog signal processing capabilities, â€œfingers“ implementation â€“ allows for efficient interfacing and control in various analog scenarios, and â€œmultiplier“ implementation â€“ facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations."
+            text="The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers — integrated to provide versatile analog signal processing capabilities, 'fingers' implementation — allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation — facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations."
             link="chip-gallery/sparrow"
           />
         </div>
@@ -50,21 +50,27 @@ function ChipGallery() {
   );
 }
 
-function ChipComponent(prop) {
+function ChipComponent({ img, name, date, text, link }) {
   return (
-    <section>
-      <div className="chip-gallery-item">
-        <img src={prop.img} />
-        <div className="chip-desc">
-          <h3>{prop.name}</h3>
-          <h4>{prop.date}</h4>
-          <p>{prop.text}</p>
-          <a href={prop.link} className="btn-get-started scrollto">
-            Read more
-          </a>
+    <div className="chip-gallery-item">
+      <div className="chip-gallery-card">
+        <div className="row g-0">
+          <div className="col-md-4 chip-image-container">
+            <img src={img} className="chip-image" alt={name} />
+          </div>
+          <div className="col-md-8">
+            <div className="chip-desc">
+              <h3 className="chip-title">{name}</h3>
+              <h4 className="chip-date">{date}</h4>
+              <p className="chip-text">{text}</p>
+              <a href={link} className="btn-get-started scrollto">
+                Read more
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

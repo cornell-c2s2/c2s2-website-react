@@ -19,7 +19,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,6 +32,7 @@
     ]
   },
   "devDependencies": {
+    "detect-port-alt": "^1.1.6",
     "file-loader": "^6.2.0"
   }
 }

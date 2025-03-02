@@ -1,30 +1,90 @@
 [
   {
-    "id": "cnf",
-    "title": "CNF Chip Art",
-    "date": "Spring 2022",
-    "text": "Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts.",
-    "img_url": "../assets/img/chips/cnf_boat.png"
-  },
-  {
-    "id": "dove",
-    "title": "Dove ECE 5745",
-    "date": "Spring 2022",
-    "text": "This test chip, developed by the ECE 5745 class, is designed to explore the capabilities of Caravel and OpenLane. At its core, the chip features a RISC-V Litex SoC architecture, enabling flexible and efficient processing. It integrates four specialized hardware accelerators to enhance performance in various applications: Group 15: Wavelet Compression Accelerator, Group 16: SpMV Accelerator, Group 17: BNN Accelerator, Group 99: GCD Accelerator.",
-    "img_url": "../assets/img/chips/Dove(ECE5745_Spring'22).JPG"
-  },
-  {
     "id": "eagle",
     "title": "Eagle Digital Chip",
-    "date": "Spring 2024",
+    "date": "Spring 2023",
     "text": "The 2023 C2S2 Digital Tapeout showcases a design centered around a RISC-V Litex System on Chip. This chip features a custom digital Cooley-Tukey Fast Fourier Transform (FFT) implementation, optimized for high-speed signal processing tasks. The RISC-V architecture provides a flexible and scalable processing platform, enabling efficient execution of complex algorithms and data manipulation.",
-    "img_url": "../assets/img/chips/Eagle_Digital_Spring'23.JPG"
+    "img_url": "../assets/img/chips/Eagle_Digital_Spring'23.JPG",
+    "specifications": {
+      "Architecture": "RISC-V Litex SoC",
+      "Process Technology": "Sky130",
+      "Die Size": "2.0mm × 2.0mm",
+      "FFT Size": "1024-point",
+      "Core Frequency": "150MHz",
+      "Power Consumption": "~10mW @ 1.8V",
+      "Chip Label": "A3"
+    },
+    "features": [
+      "RISC-V 32-bit processor core for general-purpose computing",
+      "Custom digital Cooley-Tukey FFT hardware accelerator",
+      "High-speed signal processing capabilities",
+      "Optimized for complex algorithm execution",
+      "Flexible system-on-chip architecture",
+      "Designed using open-source RTL tools"
+    ]
   },
   {
     "id": "sparrow",
     "title": "Sparrow Analog",
     "date": "Spring 2023",
     "text": "The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers – integrated to provide versatile analog signal processing capabilities, 'fingers' implementation – allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation – facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations.",
-    "img_url": "../assets/img/chips/Sparrow_AnalogSpring'23.JPG"
+    "img_url": "../assets/img/chips/Sparrow_AnalogSpring'23.JPG",
+    "specifications": {
+      "Architecture": "RISC-V Litex SoC with Analog Components",
+      "Process Technology": "Sky130",
+      "Die Size": "1.8mm × 1.8mm",
+      "Op-Amp Gain": ">60dB",
+      "Bandwidth": "10MHz",
+      "Multiplier Range": "±1.5V input",
+      "Chip Label": "A2"
+    },
+    "features": [
+      "Integrated operational amplifiers for analog signal processing",
+      "Custom 'fingers' implementation for efficient analog interfacing",
+      "Analog multiplier for signal modulation applications",
+      "Mixed-signal design combining digital processing with analog I/O",
+      "RISC-V Litex SoC for control and digital processing",
+      "Optimized for low-noise analog operations"
+    ]
+  },
+  {
+    "id": "dove",
+    "title": "Dove ECE 5745",
+    "date": "Spring 2022",
+    "text": "This test chip, developed by the ECE 5745 class, is designed to explore the capabilities of Caravel and OpenLane. At its core, the chip features a RISC-V Litex SoC architecture, enabling flexible and efficient processing. It integrates four specialized hardware accelerators to enhance performance in various applications: Group 15: Wavelet Compression Accelerator, Group 16: SpMV Accelerator, Group 17: BNN Accelerator, Group 99: GCD Accelerator.",
+    "img_url": "../assets/img/chips/Dove(ECE5745_Spring'22).JPG",
+    "specifications": {
+      "Architecture": "RISC-V Litex SoC",
+      "Process Technology": "Sky130",
+      "Die Size": "1.5mm × 1.5mm",
+      "Core Frequency": "100MHz"
+    },
+    "features": [
+      "Caravel and OpenLane integration",
+      "RISC-V Litex SoC architecture for flexible processing",
+      "Wavelet Compression Accelerator for efficient data compression",
+      "SpMV Accelerator for sparse matrix vector operations",
+      "BNN Accelerator for binary neural network computations",
+      "GCD Accelerator for greatest common divisor calculations"
+    ]
+  },
+  {
+    "id": "cnf",
+    "title": "CNF Chip Art",
+    "date": "Spring 2022",
+    "text": "Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts.",
+    "img_url": "../assets/img/chips/cnf_boat.png",
+    "specifications": {
+      "Process": "130nm CMOS",
+      "Size": "100μm × 150μm",
+      "Manufacturer": "Efabless",
+      "Visibility": "Only visible through optical microscopy"
+    },
+    "features": [
+      "Artistic design embedded in metal layers",
+      "Located among standard cells and metal fill patterns",
+      "Showcases integration of art and functional IC design",
+      "Demonstrates manufacturing precision at microscopic scales"
+    ]
   }
 ]

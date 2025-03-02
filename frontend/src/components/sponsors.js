@@ -1,6 +1,7 @@
 import React from "react";
 import cadence from "../assets/img/sponsors/cadence.png";
 import amd from "../assets/img/sponsors/amd.png";
+import sandia from "../assets/img/sponsors/snl.png";
 
 function Sponsors() {
   return (
@@ -82,6 +83,21 @@ function Sponsors() {
                     src={amd}
                     className="img-fluid"
                     alt="Advanced Micro Devices, Inc."
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="sponsor">
+                <a target="_blank" href="https://sandia.gov/">
+                  <img
+                    src={sandia}
+                    class="img-fluid"
+                    alt="Sandia National Laboratories"
                   />
                 </a>
               </div>

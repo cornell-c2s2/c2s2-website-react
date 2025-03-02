@@ -17,20 +17,6 @@ function ChipGallery() {
       <section className="py-5 bg-light">
         <div className="container chip-gallery-container">
           <ChipComponent
-            img={cnf}
-            name="CNF Chip Art"
-            date="Spring 2022"
-            text="Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts."
-            link="chip-gallery/cnf"
-          />
-          <ChipComponent
-            img={dove}
-            name="Dove ECE 5745"
-            date="Spring 2022"
-            text="This test chip, developed by the ECE 5745 class, is designed to explore the capabilities of Caravel and OpenLane. At its core, the chip features a RISC-V Litex SoC architecture, enabling flexible and efficient processing. It integrates four specialized hardware accelerators to enhance performance in various applications: Group 15: Wavelet Compression Accelerator, Group 16: SpMV Accelerator, Group 17: BNN Accelerator, Group 99: GCD Accelerator"
-            link="chip-gallery/dove"
-          />
-          <ChipComponent
             img={eagle}
             name="Eagle Digital Chip"
             date="Spring 2024"
@@ -43,6 +29,20 @@ function ChipGallery() {
             date="Spring 2023"
             text="The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers — integrated to provide versatile analog signal processing capabilities, 'fingers' implementation — allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation — facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations."
             link="chip-gallery/sparrow"
+          />
+          <ChipComponent
+            img={dove}
+            name="Dove ECE 5745"
+            date="Spring 2022"
+            text="This test chip, developed by the ECE 5745 class, is designed to explore the capabilities of Caravel and OpenLane. At its core, the chip features a RISC-V Litex SoC architecture, enabling flexible and efficient processing. It integrates four specialized hardware accelerators to enhance performance in various applications: Group 15: Wavelet Compression Accelerator, Group 16: SpMV Accelerator, Group 17: BNN Accelerator, Group 99: GCD Accelerator"
+            link="chip-gallery/dove"
+          />
+          <ChipComponent
+            img={cnf}
+            name="CNF Chip Art"
+            date="Spring 2022"
+            text="Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts."
+            link="chip-gallery/cnf"
           />
         </div>
       </section>

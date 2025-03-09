@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import chipData from "../chip.json";
+import chipData from "../assets/json/chip.json";
 import cnf from "../assets/img/chips/cnf_boat.png";
 import dove from "../assets/img/chips/Dove(ECE5745_Spring'22).JPG";
 import eagle from "../assets/img/chips/Eagle_Digital_Spring'23.JPG";
@@ -88,8 +88,8 @@ function Chip() {
                   </ul>
                 </div>
               )}
-              {/* 
-              {chip.features && (
+
+              {/* {chip.features && (
                 <div className="chip-page__features">
                   <h2 className="chip-page__subtitle">Features</h2>
                   <ul className="chip-page__features-list">

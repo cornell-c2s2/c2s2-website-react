@@ -1,0 +1,128 @@
+[
+  {
+    "first": "Aidan",
+    "last": "McNay",
+    "linkedin": "https://www.linkedin.com/in/aidan-mcnay-0ba928201/",
+    "position": "Project Team Lead",
+    "years": "2022-2024",
+    "major": "MEng'25 in ECE",
+    "employer": "NVIDIA"
+  },
+  {
+    "first": "Thomas",
+    "last": "Figura",
+    "linkedin": "https://www.linkedin.com/in/tjf87/",
+    "position": "Analog Subteam Lead",
+    "years": "2022-2024",
+    "major": "BS'24 in ECE",
+    "employer": "RF Engineering Intern"
+  },
+  {
+    "first": "Jon",
+    "last": "Ho",
+    "linkedin": "https://www.linkedin.com/in/jon-ho-656156140/",
+    "position": "Analog Subteam Lead",
+    "years": "2022-2023",
+    "major": "BS'24 in ECE",
+    "employer": "Space X"
+  },
+  {
+    "first": "Ena",
+    "last": "Jovanovic",
+    "linkedin": "https://www.linkedin.com/in/ena-jovanovi%C4%87-2356a4311/",
+    "position": "Analog",
+    "years": "2023-2023",
+    "major": "BS'26 in ECE",
+    "employer": "NUS"
+  },
+  {
+    "first": "Ethan",
+    "last": "Gabizon",
+    "linkedin": "https://www.linkedin.com/in/ethan-gabizon/",
+    "position": "Digital",
+    "years": "2023-2023",
+    "major": "BS'25 in ECE",
+    "employer": "Cornell Capra Research"
+  },
+  {
+    "first": "Jay",
+    "last": "Patel",
+    "linkedin": "https://www.linkedin.com/in/jay-patel--/",
+    "position": "PM & Software",
+    "years": "2023-2024",
+    "major": "BS'26 in CS",
+    "employer": "geothinQ"
+  },
+  {
+    "first": "Kene",
+    "last": "Chukwuma",
+    "linkedin": "https://www.linkedin.com/in/kene-cornell/",
+    "position": "Sys Arch",
+    "years": "2023-2024",
+    "major": "BS'26 in ECE",
+    "employer": "GE Aerospace"
+  },
+  {
+    "first": "Mattie",
+    "last": "Lee",
+    "linkedin": "",
+    "position": "Digital",
+    "years": "2022-2024",
+    "major": "BS'24 in ECE",
+    "employer": "Space X"
+  },
+  {
+    "first": "Michael",
+    "last": "Wei",
+    "linkedin": "https://www.linkedin.com/in/wmich/",
+    "position": "Software",
+    "years": "2022-2023",
+    "major": "",
+    "employer": "Software Engineer Intern"
+  },
+  {
+    "first": "Setor",
+    "last": "Simpri",
+    "linkedin": "",
+    "position": "Analog",
+    "years": "2023-2024",
+    "major": "",
+    "employer": ""
+  },
+  {
+    "first": "Tomas",
+    "last": "Choi",
+    "linkedin": "https://www.linkedin.com/in/tomas-choi-913189240/",
+    "position": "Digital",
+    "years": "2022-2024",
+    "major": "BS'25 in ECE",
+    "employer": "ARM"
+  },
+  {
+    "first": "Vicky",
+    "last": "Le",
+    "linkedin": "https://www.linkedin.com/in/vicky-m-le/",
+    "position": "Digital",
+    "years": "2022-2024",
+    "major": "BS'25 in ECE",
+    "employer": "Intel"
+  },
+  {
+    "first": "Angela",
+    "last": "Cui",
+    "linkedin": "https://www.linkedin.com/in/angela-cui-575702214/",
+    "position": "Digital Lead",
+    "years": "2022-2024",
+    "major": "BS'25 in ECE",
+    "employer": "Space X"
+  },
+  {
+    "first": "Edmund",
+    "last": "Lam",
+    "linkedin": "https://www.linkedin.com/in/lam-edmund/",
+    "position": "Digital Lead 23/24",
+    "years": "2022-2024",
+    "major": "BA'24 in CS",
+    "employer": "NASA JPL"
+  }
+]

@@ -124,5 +124,167 @@
     "years": "2022-2024",
     "major": "BA'24 in CS",
     "employer": "NASA JPL"
+  },
+  {
+    "first": "Alga",
+    "last": "Peng",
+    "linkedin": "https://www.linkedin.com/in/alga-peng-cp444/",
+    "position": "Digital",
+    "years": "2022-2023",
+    "major": "ECE, 2022",
+    "employer": "NVIDIA"
+  },
+  {
+    "first": "Austin",
+    "last": "Brown",
+    "linkedin": "https://www.linkedin.com/in/ajb497/",
+    "position": "Digital Lead",
+    "years": "2022-2023",
+    "major": "Information Science, 2023",
+    "employer": "Qrypt"
+  },
+  {
+    "first": "Chidera",
+    "last": "Wokonko",
+    "linkedin": "https://www.linkedin.com/in/chiderawokonko/",
+    "position": "PM Lead",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "Apple"
+  },
+  {
+    "first": "Christopher",
+    "last": "Schiff",
+    "linkedin": "https://www.linkedin.com/in/christopher-schiff-114a1b1ba/",
+    "position": "Digital Lead",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "EPFL"
+  },
+  {
+    "first": "Dylan",
+    "last": "Tom",
+    "linkedin": "https://www.linkedin.com/in/dylan-tom/",
+    "position": "Digital",
+    "years": "2023",
+    "major": "Math + CS, 2024 Winter",
+    "employer": "EY"
+  },
+  {
+    "first": "Emmi",
+    "last": "Wyttenbach",
+    "linkedin": "https://www.linkedin.com/in/emmi-wyttenbach-49h14a165/",
+    "position": "Analog",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "Brilliant Smart Home"
+  },
+  {
+    "first": "Jasmine",
+    "last": "Samadi",
+    "linkedin": "https://www.linkedin.com/in/jasminesamadi/",
+    "position": "N/A",
+    "years": "2022-2023",
+    "major": "ORIE< 2024 Winter",
+    "employer": "Apollo"
+  },
+  {
+    "first": "Kevin",
+    "last": "Liu",
+    "linkedin": "",
+    "position": "N/A",
+    "years": "2022-2023",
+    "major": "",
+    "employer": "Arm"
+  },
+  {
+    "first": "Matt",
+    "last": "Hales",
+    "linkedin": "https://www.linkedin.com/in/matthew-hales-888ab5172/",
+    "position": "PM",
+    "years": "2022",
+    "major": "ECE, 2022",
+    "employer": "Fabric Cryptography"
+  },
+  {
+    "first": "Mika",
+    "last": "Finkman",
+    "linkedin": "https://www.linkedin.com/in/mika-finkman/",
+    "position": "Digital",
+    "years": "2022-2023",
+    "major": "CS, 2025",
+    "employer": "Lighthouse Guild"
+  },
+  {
+    "first": "Shihao",
+    "last": "Cao",
+    "linkedin": "https://www.linkedin.com/in/shihaocao/",
+    "position": "N/A",
+    "years": "2022",
+    "major": "CS, 2022",
+    "employer": "SpaceX"
+  },
+  {
+    "first": "Tanya",
+    "last": "Zhou",
+    "linkedin": "https://www.linkedin.com/in/tanya-zhou-4242861a9/",
+    "position": "Software Lead",
+    "years": "2022-2023",
+    "major": "CS + Math, 2024",
+    "employer": "Atlassian"
+  },
+  {
+    "first": "Will",
+    "last": "Salcedo",
+    "linkedin": "https://www.linkedin.com/in/william-salcedo/",
+    "position": "Digital Lead",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "NVIDIA"
+  },
+  {
+    "first": "Xiangyi",
+    "last": "Zhao",
+    "linkedin": "https://www.linkedin.com/in/xiangyi-zhao-810480144/",
+    "position": "Digital",
+    "years": "2022-2023",
+    "major": "ECE, 2022",
+    "employer": "Cadence"
+  },
+  {
+    "first": "Akanksha",
+    "last": "Sarkar",
+    "linkedin": "https://www.linkedin.com/in/akanksha-sarkar/",
+    "position": "Software Co-Lead",
+    "years": "2022-2024",
+    "major": "Math + CS, 2025",
+    "employer": "Google DeepMind"
+  },
+  {
+    "first": "Ananya",
+    "last": "Goenka",
+    "linkedin": "https://www.linkedin.com/in/ananya-goenka/",
+    "position": "Software Co-Lead",
+    "years": "2022-2023",
+    "major": "CS + Data Science + Business, 2025",
+    "employer": "Amazon Web Services"
+  },
+  {
+    "first": "Sana",
+    "last": "Chawla",
+    "linkedin": "https://www.linkedin.com/in/sanachawla/",
+    "position": "Software",
+    "years": "2023-2024",
+    "major": "CS, 2025",
+    "employer": "Cisco"
+  },
+  {
+    "first": "Steven",
+    "last": "Sun",
+    "linkedin": "https://www.linkedin.com/in/stevensun203/",
+    "position": "Digital",
+    "years": "2022-2024",
+    "major": "ECE, 2025",
+    "employer": "Dell Technologies"
   }
 ]

@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 
 // When the user clicks on <div>, open the popup
 // function sd(num) {
@@ -147,12 +148,7 @@ function About() {
               <div className="col-lg-3 col-md-6 d-md-flex align-items-md-center">
                 <div className="count-box">
                   <i className="bi bi-people"></i>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="38"
-                    data-purecounter-duration="1"
-                    className="purecounter"
-                  ></span>
+                  <AnimatedCounter end={46} />
                   <p>
                     <strong>Team Members</strong>
                   </p>
@@ -161,12 +157,7 @@ function About() {
               <div className="col-lg-3 col-md-6 d-md-flex align-items-md-center">
                 <div className="count-box">
                   <i className="bi bi-diagram-2"></i>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="5"
-                    data-purecounter-duration="1"
-                    className="purecounter"
-                  ></span>
+                  <AnimatedCounter end={5} />
                   <p>
                     <strong>Subteams</strong>
                   </p>
@@ -175,12 +166,7 @@ function About() {
               <div className="col-lg-3 col-md-6 d-md-flex align-items-md-center">
                 <div className="count-box">
                   <i className="bi bi-mortarboard"></i>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="6"
-                    data-purecounter-duration="1"
-                    className="purecounter"
-                  ></span>
+                  <AnimatedCounter end={6} />
                   <p>
                     <strong>Majors</strong>
                   </p>
@@ -189,12 +175,7 @@ function About() {
               <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                 <div className="count-box">
                   <i className="bi bi-cpu"></i>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="4"
-                    data-purecounter-duration="1"
-                    className="purecounter"
-                  ></span>
+                  <AnimatedCounter end={4} />
                   <p>
                     <strong>Taped-Out Chips</strong>
                   </p>
@@ -209,3 +190,27 @@ function About() {
 }
 
 export default About;
+
+const AnimatedCounter = ({
+  start = 0,
+  end = 5,
+  duration = 1,
+  prefix = "",
+  suffix = "",
+  decimals = 0,
+  className = "",
+}) => {
+  return (
+    <div className={className}>
+      <CountUp
+        start={start}
+        end={end}
+        duration={duration}
+        prefix={prefix}
+        suffix={suffix}
+        decimals={decimals}
+        enableScrollSpy={true} // Set to true if you want counter to start when scrolled into view
+      />
+    </div>
+  );
+};

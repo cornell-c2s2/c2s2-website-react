@@ -7,7 +7,7 @@ import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 function ChipGallery() {
   return (
     <main id="main">
-      <section id="about" className="breadcrumbs">
+      <section id="chipgallery" className="breadcrumbs">
         <div className="container">
           <div className="section-title">
             <h1>Chip Gallery</h1>

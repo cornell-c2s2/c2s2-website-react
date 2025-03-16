@@ -1,0 +1,74 @@
+[
+  {
+    "first": "Aidan",
+    "last": "McNay",
+    "linkedin": "https://www.linkedin.com/in/aidan-mcnay-0ba928201/",
+    "position": "Project Team Lead",
+    "years": "2022-2024",
+    "major": "MEng'25 in ECE",
+    "employer": "NVIDIA"
+  },
+  {
+    "first": "Thomas",
+    "last": "Figura",
+    "linkedin": "https://www.linkedin.com/in/tjf87/",
+    "position": "Analog Subteam Lead",
+    "years": "2022-2024",
+    "major": "BS'24 in ECE",
+    "employer": "RF Engineering Intern"
+  },
+  {
+    "first": "Jon",
+    "last": "Ho",
+    "linkedin": "https://www.linkedin.com/in/jon-ho-656156140/",
+    "position": "Analog Subteam Lead",
+    "years": "2022-2023",
+    "major": "BS'24 in ECE",
+    "employer": "Space X"
+  },
+  {
+    "first": "Edmund",
+    "last": "Lam",
+    "linkedin": "https://www.linkedin.com/in/lam-edmund/",
+    "position": "Digital Lead 23/24",
+    "years": "2022-2024",
+    "major": "BA'24 in CS",
+    "employer": "NASA JPL"
+  },
+  {
+    "first": "Austin",
+    "last": "Brown",
+    "linkedin": "https://www.linkedin.com/in/ajb497/",
+    "position": "Digital Lead",
+    "years": "2022-2023",
+    "major": "Information Science, 2023",
+    "employer": "Qrypt"
+  },
+  {
+    "first": "Chidera",
+    "last": "Wokonko",
+    "linkedin": "https://www.linkedin.com/in/chiderawokonko/",
+    "position": "PM Lead",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "Apple"
+  },
+  {
+    "first": "Will",
+    "last": "Salcedo",
+    "linkedin": "https://www.linkedin.com/in/william-salcedo/",
+    "position": "Digital Lead",
+    "years": "2022-2023",
+    "major": "ECE, 2023",
+    "employer": "NVIDIA"
+  },
+  {
+    "first": "Akanksha",
+    "last": "Sarkar",
+    "linkedin": "https://www.linkedin.com/in/akanksha-sarkar/",
+    "position": "Software Co-Lead",
+    "years": "2022-2024",
+    "major": "Math + CS, 2025",
+    "employer": "Google DeepMind"
+  }
+]

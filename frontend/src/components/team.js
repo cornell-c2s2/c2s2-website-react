@@ -60,7 +60,7 @@ import tanyaDatta from "../assets/img/team/Tanya Datta_PM.jpg";
 import ivanMokeyev from "../assets/img/team/ivan.jpg";
 
 //Alumni
-import AlumniInfo from "../assets/json/alumni.json";
+import AlumniInfo from "../assets/json/alumni8.json";
 
 function Team() {
   return (
@@ -399,7 +399,7 @@ function Team() {
       <section id="software" className="team">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
-            <i className="bi bi-code-slash"></i>
+            <i className="bi bi-router"></i>
             <p>Mixed Signal SoC Subteam</p>
           </div>
 
@@ -418,7 +418,7 @@ function Team() {
       <section id="rfic" class="team">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <i class="bi bi-router"></i>
+            <i className="bi bi-router"></i>
             <p>RFIC Subteam</p>
           </div>
 
@@ -512,8 +512,13 @@ function Team() {
 
           <div className="alumni-grid">
             {AlumniInfo.map((alumni, index) => {
-              return <Alumni key={index} {...alumni} />;
+              return <AlumniCard key={index} {...alumni} />;
             })}
+          </div>
+          <div className="alumni-button-container">
+            <a href="/alumni" className="btn-get-started scrollto">
+              View All Alumni
+            </a>
           </div>
         </div>
       </section>
@@ -569,7 +574,7 @@ function TeamMember(prop) {
   );
 }
 
-function Alumni(prop) {
+function AlumniCard(prop) {
   return (
     <div className="alumni-card">
       <div className="name">{prop.first + " " + prop.last}</div>

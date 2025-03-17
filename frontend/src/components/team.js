@@ -50,6 +50,7 @@ import akshatiVaishnav from "../assets/img/team/Akshati Vaishnav_SOC.jpg";
 //RFIC Subteam
 import taylorDo from "../assets/img/team/Taylor Do_RFIC.jpg";
 import jeffWilcox from "../assets/img/team/Jeff Wilcox_RFIC.jpg";
+import chrislonergan from "../assets/img/team/Chris Lonergan_RFIC.jpg";
 
 //Project Management Subteam
 import jasonWang from "../assets/img/team/Jason Wang_PM.jpg";
@@ -58,6 +59,7 @@ import vayunTiwari from "../assets/img/team/Vayun Tiwari_PM.jpg";
 import anikaSukthankar from "../assets/img/team/Anika Sukthankar_PM.jpg";
 import tanyaDatta from "../assets/img/team/Tanya Datta_PM.jpg";
 import ivanMokeyev from "../assets/img/team/ivan.jpg";
+import nickchanng from "../assets/img/team/Nicholas Channg_PM.jpg";
 
 //Alumni
 import AlumniInfo from "../assets/json/alumni8.json";
@@ -438,6 +440,14 @@ function Team() {
               github=""
               linkedin=""
             />
+
+            <TeamMember
+              name="Chris Lonergan"
+              role=""
+              img={chrislonergan}
+              github=""
+              linkedin=""
+            />
           </div>
         </div>
       </section>
@@ -496,6 +506,14 @@ function Team() {
               img={ivanMokeyev}
               github=""
               linkedin=""
+            />
+
+            <TeamMember
+              name="Nicholas Channg"
+              role=""
+              img={nickchanng}
+              github="https://github.com/nicholaschanng"
+              linkedin="https://www.linkedin.com/in/nicholaschanng/"
             />
           </div>
         </div>

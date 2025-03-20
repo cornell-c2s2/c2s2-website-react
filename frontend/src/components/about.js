@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import labofO from "../assets/img/sponsors/labofO.webp";
 
 // When the user clicks on <div>, open the popup
 // function sd(num) {
@@ -184,6 +185,28 @@ function About() {
             </div>
           </div>
         </section>
+
+        <section>
+          <div className="container">
+            <div className="section-title" data-aos="fade-up">
+              <p>Campus Partner</p>
+            </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                <div className="sponsor">
+                  <a target="_blank" href="https://www.birds.cornell.edu/home/">
+                    {/* style="margin: 0.5rem 0.5rem 0.5rem 1.5rem"  */}
+                    <img src={labofO} className="img-fluid" alt="Lab of O" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
@@ -194,7 +217,7 @@ export default About;
 const AnimatedCounter = ({
   start = 0,
   end = 5,
-  duration = 1,
+  duration = 3,
   prefix = "",
   suffix = "",
   decimals = 0,

@@ -191,18 +191,28 @@ function About() {
             <div className="section-title" data-aos="fade-up">
               <p>Campus Partner</p>
             </div>
-            <div className="row justify-content-center">
-              <div
-                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center"
-                data-aos="zoom-in"
-                data-aos-delay="100"
-              >
-                <div className="sponsor">
-                  <a target="_blank" href="https://www.birds.cornell.edu/home/">
-                    {/* style="margin: 0.5rem 0.5rem 0.5rem 1.5rem"  */}
-                    <img src={labofO} className="img-fluid" alt="Lab of O" />
-                  </a>
-                </div>
+            The Cornell Lab of Ornithology is a world leader in advancing the
+            understanding, appreciation, and conservation of birds through
+            research, education, and citizen science. Their cutting-edge
+            research in bioacoustics and commitment to developing innovative
+            technologies for wildlife monitoring perfectly aligns with our
+            project goals. We extend our sincere gratitude to Christopher
+            Tarango and the entire Cornell Lab of Ornithology team for their
+            invaluable partnership and look forward to contributing to their
+            mission of creating a future where people live with birds in
+            harmony.
+          </div>
+          <div className="row justify-content-center">
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div className="sponsor">
+                <a target="_blank" href="https://www.birds.cornell.edu/home/">
+                  {/* style="margin: 0.5rem 0.5rem 0.5rem 1.5rem"  */}
+                  <img src={labofO} className="img-fluid" alt="Lab of O" />
+                </a>
               </div>
             </div>
           </div>

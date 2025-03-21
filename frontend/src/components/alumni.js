@@ -28,7 +28,7 @@ export default Alumni;
 
 function AlumniCard(prop) {
   return (
-    <div className="alumni-card">
+    <div className="alumni-card" data-aos="zoom-in" data-aos-delay="100">
       <div className="name">{prop.first + " " + prop.last}</div>
 
       {prop.position && <div className="position">{prop.position}</div>}

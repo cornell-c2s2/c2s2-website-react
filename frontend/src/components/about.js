@@ -188,7 +188,7 @@ function About() {
 
         <section>
           <div className="container">
-            <div className="section-title" data-aos="fade-up">
+            <div className="section-title">
               <p>Campus Partner</p>
             </div>
             The Cornell Lab of Ornithology is a world leader in advancing the
@@ -203,11 +203,7 @@ function About() {
             harmony.
           </div>
           <div className="row justify-content-center">
-            <div
-              className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center">
               <div className="sponsor">
                 <a target="_blank" href="https://www.birds.cornell.edu/home/">
                   {/* style="margin: 0.5rem 0.5rem 0.5rem 1.5rem"  */}

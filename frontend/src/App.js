@@ -6,8 +6,13 @@ import "./assets/vendor/glightbox/css/glightbox.min.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 import "./assets/css/index.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
+import { useEffect } from "react";
+
 import Layout from "./components/layout.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";
@@ -21,6 +26,14 @@ import Blog from "./components/blog.js";
 import BlogPost from "./components/blogpost.js";
 
 function App() {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 750, // Animation duration
+      once: false, // Whether animation should happen only once
+    });
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>

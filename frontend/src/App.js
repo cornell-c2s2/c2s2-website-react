@@ -30,7 +30,7 @@ function App() {
     // Initialize AOS
     AOS.init({
       duration: 750, // Animation duration
-      once: false, // Whether animation should happen only once
+      once: true, // Whether animation should happen only once
     });
   }, []);
 

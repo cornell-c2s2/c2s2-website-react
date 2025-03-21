@@ -52,7 +52,7 @@ function ChipGallery() {
 
 function ChipComponent({ img, name, date, text, link }) {
   return (
-    <div className="chip-gallery-item">
+    <div className="chip-gallery-item" data-aos="zoom-in" data-aos-delay="100">
       <div className="chip-gallery-card">
         <div className="row g-0">
           <div className="col-md-4 chip-image-container">

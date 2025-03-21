@@ -15,7 +15,7 @@ function Sponsors() {
       </section>
 
       <section>
-        <div className="container">
+        <div className="container" data-aos="zoom-in" data-aos-delay="100">
           <h2 className="section-title">About the Team</h2>
           <h3>
             {/* style="text-align: center" */}

@@ -37,7 +37,7 @@ function About() {
         </section>
 
         <section id="video" className="video">
-          <div className="container">
+          <div className="container" data-aos="zoom-in" data-aos-delay="100">
             <div className="row">
               <div className="col-lg-12">
                 <div className="video-container">
@@ -56,7 +56,7 @@ function About() {
         </section>
 
         <section id="video" className="video">
-          <div className="container">
+          <div className="container" data-aos="zoom-in" data-aos-delay="100">
             <div className="row">
               <div className="col-lg-12">
                 <div className="video-container">
@@ -75,7 +75,7 @@ function About() {
         </section>
 
         <section id="video" className="video">
-          <div className="container">
+          <div className="container" data-aos="zoom-in" data-aos-delay="100">
             <div className="row">
               <div className="col-lg-12">
                 <div className="video-container">
@@ -94,7 +94,7 @@ function About() {
         </section>
 
         <section>
-          <div className="container">
+          <div className="container" data-aos="zoom-in" data-aos-delay="100">
             <p>
               Silicon CMOS chips are at the heart of every modern computing
               device from the smallest Internet-of-Things (IoT) device to the
@@ -187,7 +187,7 @@ function About() {
         </section>
 
         <section>
-          <div className="container">
+          <div className="container" data-aos="zoom-in" data-aos-delay="100">
             <div className="section-title">
               <p>Campus Partner</p>
             </div>
@@ -202,7 +202,11 @@ function About() {
             mission of creating a future where people live with birds in
             harmony.
           </div>
-          <div className="row justify-content-center">
+          <div
+            className="row justify-content-center"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-block align-items-center">
               <div className="sponsor">
                 <a target="_blank" href="https://www.birds.cornell.edu/home/">

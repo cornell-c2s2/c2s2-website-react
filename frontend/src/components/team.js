@@ -9,7 +9,7 @@ import acm289 from "../assets/img/team/acm289.jpg";
 
 //Digital Subteam
 import johnnyMartinez from "../assets/img/team/jjm469.jpg";
-import angelicaBian from "../assets/img/team/Anjelica Bian_Digital.jpg";
+import anjelicaBian from "../assets/img/team/Anjelica Bian_Digital.jpg";
 import barryLyu from "../assets/img/team/fl327.jpg";
 import emilyLan from "../assets/img/team/Emily Lan_Digital.jpg";
 import demetriosGavalas from "../assets/img/team/deg273.jpg";
@@ -139,9 +139,9 @@ function Team() {
             />
 
             <TeamMember
-              name="Angelica Bian"
+              name="Anjelica Bian"
               role="Digital Subteam Co-Lead"
-              img={angelicaBian}
+              img={anjelicaBian}
               github=""
               linkedin=""
             />

@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../assets/img/hero-img.png";
+import teamPhoto from "../assets/img/team/full_team.jpg";
 
 function Home() {
   return (
@@ -40,6 +41,12 @@ function Home() {
                 <img src={hero} className="img-fluid animated" alt="" />
               </div>
             </div>
+          </div>
+        </section>
+        <section style={{ marginTop: "50px" }}>
+          <div className="container team-photo-container">
+            <h1>Team Photo</h1>
+            <img className="team-photo" src={teamPhoto} />
           </div>
         </section>
       </main>

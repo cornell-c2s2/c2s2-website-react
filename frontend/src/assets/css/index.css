@@ -613,6 +613,60 @@ ul {
   }
 }
 
+/* Team photo */
+.team-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.team-photo-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+}
+
+.team-photo-container h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #e64646; /* Using the red color from the team shirts */
+}
+
+.team-photo {
+  width: 600px;
+  max-width: 100%;
+  /* border-radius: 8px; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .team-photo-container h1 {
+    font-size: 2rem;
+  }
+
+  .team-photo {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -899,6 +953,104 @@ section {
   .chip-gallery-container .row {
     flex-direction: column;
   }
+}
+.chip-page .chip-page__image-container {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.chip-page .chip-page__image {
+  transition: transform 0.3s ease;
+}
+
+.chip-page .chip-page__image-container:hover .chip-page__image {
+  transform: scale(1.05);
+}
+
+/* Overlay with zoom text */
+.chip-page .chip-page__image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(
+    177,
+    74,
+    48,
+    0.8
+  ); Adjust color to match your site's theme */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip-page .chip-page__image-container:hover .chip-page__image-overlay {
+  height: 40px;
+}
+
+.chip-page .chip-page__image-zoom-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Modal styles */
+.chip-page .chip-page__modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip-page .chip-page__modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.chip-page .chip-page__modal-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.chip-page .chip-page__modal-close:hover {
+  color: white;
+}
+
+.chip-page .chip-page__modal-image {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.chip-page .chip-page__modal-caption {
+  margin-top: 15px;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------

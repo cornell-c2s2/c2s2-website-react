@@ -19,18 +19,36 @@ function Chip() {
   const location = useLocation();
   const [chip, setChip] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [imageModal, setImageModal] = useState(false);
 
   useEffect(() => {
     // Extract URL details whenever the location changes
     const pathId = location.pathname.split("/").pop();
 
-    // Fetch chip data from JSON file
-    // For actual implementation, ensure the path is correct
-
+    // Get chip data from imported JSON
     const selectedChip = chipData.find((item) => item.id === pathId);
     setChip(selectedChip);
     setLoading(false);
   }, [location]);
+
+  // Function to toggle the image modal
+  const toggleImageModal = () => {
+    setImageModal(!imageModal);
+  };
+
+  // Close modal if user presses escape key
+  useEffect(() => {
+    const handleEsc = (event) => {
+      if (event.key === "Escape") {
+        setImageModal(false);
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+    };
+  }, []);
 
   if (loading) {
     return (
@@ -50,6 +68,26 @@ function Chip() {
 
   return (
     <main id="main" className="chip-page">
+      {/* Image Modal */}
+      {imageModal && (
+        <div className="chip-page__modal" onClick={toggleImageModal}>
+          <div
+            className="chip-page__modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <span className="chip-page__modal-close" onClick={toggleImageModal}>
+              &times;
+            </span>
+            <img
+              src={images[chip.id]}
+              alt={`${chip.title} chip (enlarged)`}
+              className="chip-page__modal-image"
+            />
+            <div className="chip-page__modal-caption">{chip.title}</div>
+          </div>
+        </div>
+      )}
+
       <section className="chip-page__header">
         <div className="container">
           <div className="chip-page__title-container">
@@ -67,7 +105,13 @@ function Chip() {
                 src={images[chip.id]}
                 alt={`${chip.title} chip`}
                 className="chip-page__image"
+                onClick={toggleImageModal}
               />
+              <div className="chip-page__image-overlay">
+                <span className="chip-page__image-zoom-text">
+                  Click to enlarge
+                </span>
+              </div>
             </div>
             <div className="chip-page__details">
               <div className="chip-page__description">

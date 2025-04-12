@@ -1,6 +1,6 @@
 import React from "react";
-import cnf from "../assets/img/chips/cnf_boat.png";
-import dove from "../assets/img/chips/Dove(ECE5745_Spring'22).JPG";
+// import cnf from "../assets/img/chips/cnf_boat.png";
+// import dove from "../assets/img/chips/Dove(ECE5745_Spring'22).JPG";
 import eagle from "../assets/img/chips/Eagle_Digital_Spring'23.JPG";
 import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 
@@ -30,7 +30,7 @@ function ChipGallery() {
             text="The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers — integrated to provide versatile analog signal processing capabilities, 'fingers' implementation — allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation — facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations."
             link="chip-gallery/sparrow"
           />
-          <ChipComponent
+          {/* <ChipComponent
             img={dove}
             name="Dove ECE 5745"
             date="Spring 2022"
@@ -43,7 +43,7 @@ function ChipGallery() {
             date="Spring 2022"
             text="Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts."
             link="chip-gallery/cnf"
-          />
+          /> */}
         </div>
       </section>
     </main>

@@ -18,33 +18,6 @@
     "employer": "RF Engineering Intern"
   },
   {
-    "first": "Jon",
-    "last": "Ho",
-    "linkedin": "https://www.linkedin.com/in/jon-ho-656156140/",
-    "position": "Analog Subteam Lead",
-    "years": "2022-2023",
-    "major": "BS'24 in ECE",
-    "employer": "Space X"
-  },
-  {
-    "first": "Ena",
-    "last": "Jovanovic",
-    "linkedin": "https://www.linkedin.com/in/ena-jovanovi%C4%87-2356a4311/",
-    "position": "Analog",
-    "years": "2023-2023",
-    "major": "BS'26 in ECE",
-    "employer": "NUS"
-  },
-  {
-    "first": "Ethan",
-    "last": "Gabizon",
-    "linkedin": "https://www.linkedin.com/in/ethan-gabizon/",
-    "position": "Digital",
-    "years": "2023-2023",
-    "major": "BS'25 in ECE",
-    "employer": "Cornell Capra Research"
-  },
-  {
     "first": "Jay",
     "last": "Patel",
     "linkedin": "https://www.linkedin.com/in/jay-patel--/",
@@ -70,15 +43,6 @@
     "years": "2022-2024",
     "major": "BS'24 in ECE",
     "employer": "Space X"
-  },
-  {
-    "first": "Michael",
-    "last": "Wei",
-    "linkedin": "https://www.linkedin.com/in/wmich/",
-    "position": "Software",
-    "years": "2022-2023",
-    "major": "",
-    "employer": "Software Engineer Intern"
   },
   {
     "first": "Setor",
@@ -124,6 +88,69 @@
     "years": "2022-2024",
     "major": "BA'24 in CS",
     "employer": "NASA JPL"
+  },
+  {
+    "first": "Akanksha",
+    "last": "Sarkar",
+    "linkedin": "https://www.linkedin.com/in/akanksha-sarkar/",
+    "position": "Software Co-Lead",
+    "years": "2022-2024",
+    "major": "Math + CS, 2025",
+    "employer": "Google DeepMind"
+  },
+  {
+    "first": "Sana",
+    "last": "Chawla",
+    "linkedin": "https://www.linkedin.com/in/sanachawla/",
+    "position": "Software",
+    "years": "2023-2024",
+    "major": "CS, 2025",
+    "employer": "Cisco"
+  },
+  {
+    "first": "Steven",
+    "last": "Sun",
+    "linkedin": "https://www.linkedin.com/in/stevensun203/",
+    "position": "Digital",
+    "years": "2022-2024",
+    "major": "ECE, 2025",
+    "employer": "Dell Technologies"
+  },
+  {
+    "first": "Jon",
+    "last": "Ho",
+    "linkedin": "https://www.linkedin.com/in/jon-ho-656156140/",
+    "position": "Analog Subteam Lead",
+    "years": "2022-2023",
+    "major": "BS'24 in ECE",
+    "employer": "Space X"
+  },
+  {
+    "first": "Ena",
+    "last": "Jovanovic",
+    "linkedin": "https://www.linkedin.com/in/ena-jovanovi%C4%87-2356a4311/",
+    "position": "Analog",
+    "years": "2023-2023",
+    "major": "BS'26 in ECE",
+    "employer": "NUS"
+  },
+  {
+    "first": "Ethan",
+    "last": "Gabizon",
+    "linkedin": "https://www.linkedin.com/in/ethan-gabizon/",
+    "position": "Digital",
+    "years": "2023-2023",
+    "major": "BS'25 in ECE",
+    "employer": "Cornell Capra Research"
+  },
+  {
+    "first": "Michael",
+    "last": "Wei",
+    "linkedin": "https://www.linkedin.com/in/wmich/",
+    "position": "Software",
+    "years": "2022-2023",
+    "major": "",
+    "employer": "Software Engineer Intern"
   },
   {
     "first": "Alga",
@@ -198,15 +225,6 @@
     "employer": "Arm"
   },
   {
-    "first": "Matt",
-    "last": "Hales",
-    "linkedin": "https://www.linkedin.com/in/matthew-hales-888ab5172/",
-    "position": "PM",
-    "years": "2022",
-    "major": "ECE, 2022",
-    "employer": "Fabric Cryptography"
-  },
-  {
     "first": "Mika",
     "last": "Finkman",
     "linkedin": "https://www.linkedin.com/in/mika-finkman/",
@@ -214,15 +232,6 @@
     "years": "2022-2023",
     "major": "CS, 2025",
     "employer": "Lighthouse Guild"
-  },
-  {
-    "first": "Shihao",
-    "last": "Cao",
-    "linkedin": "https://www.linkedin.com/in/shihaocao/",
-    "position": "N/A",
-    "years": "2022",
-    "major": "CS, 2022",
-    "employer": "SpaceX"
   },
   {
     "first": "Tanya",
@@ -252,15 +261,6 @@
     "employer": "Cadence"
   },
   {
-    "first": "Akanksha",
-    "last": "Sarkar",
-    "linkedin": "https://www.linkedin.com/in/akanksha-sarkar/",
-    "position": "Software Co-Lead",
-    "years": "2022-2024",
-    "major": "Math + CS, 2025",
-    "employer": "Google DeepMind"
-  },
-  {
     "first": "Ananya",
     "last": "Goenka",
     "linkedin": "https://www.linkedin.com/in/ananya-goenka/",
@@ -270,21 +270,21 @@
     "employer": "Amazon Web Services"
   },
   {
-    "first": "Sana",
-    "last": "Chawla",
-    "linkedin": "https://www.linkedin.com/in/sanachawla/",
-    "position": "Software",
-    "years": "2023-2024",
-    "major": "CS, 2025",
-    "employer": "Cisco"
+    "first": "Matt",
+    "last": "Hales",
+    "linkedin": "https://www.linkedin.com/in/matthew-hales-888ab5172/",
+    "position": "PM",
+    "years": "2022",
+    "major": "ECE, 2022",
+    "employer": "Fabric Cryptography"
   },
   {
-    "first": "Steven",
-    "last": "Sun",
-    "linkedin": "https://www.linkedin.com/in/stevensun203/",
-    "position": "Digital",
-    "years": "2022-2024",
-    "major": "ECE, 2025",
-    "employer": "Dell Technologies"
+    "first": "Shihao",
+    "last": "Cao",
+    "linkedin": "https://www.linkedin.com/in/shihaocao/",
+    "position": "N/A",
+    "years": "2022",
+    "major": "CS, 2022",
+    "employer": "SpaceX"
   }
 ]

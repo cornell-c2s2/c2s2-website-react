@@ -1749,17 +1749,179 @@ section {
   transition: left ease-in-out 0.3s;
 }
 
+/*--------------------
+Alumni Companies Section
+---------------------*/
+/* EnhancedAlumniCompanies.css */
+/* EnhancedAlumniCompanies.css */
+.c2s2-alumni-companies-section {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  position: relative;
+  min-height: 600px;
+}
+
+.c2s2-alumni-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.c2s2-alumni-title {
+  font-size: 3rem;
+  margin-bottom: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+.c2s2-alumni-description {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.c2s2-alumni-logo-cloud {
+  position: relative;
+  height: 500px;
+  margin-top: 40px;
+  perspective: 1000px;
+}
+
+.c2s2-alumni-logo-item {
+  position: absolute;
+  animation: c2s2AlumniFloat 8s infinite ease-in-out; /* Base animation duration reduced by 20% (from 10s to 8s) */
+  will-change: transform;
+}
+
+.c2s2-alumni-logo-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  transition: all 0.3s ease;
+}
+
+.c2s2-alumni-logo-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.c2s2-alumni-company-logo {
+  max-width: 95%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+/* Different animation patterns with 20% faster durations */
+.c2s2-alumni-logo-item:nth-child(3n + 1) {
+  animation-duration: 10.4s; /* 20% faster than 13s */
+}
+
+.c2s2-alumni-logo-item:nth-child(3n + 2) {
+  animation-duration: 13.6s; /* 20% faster than 17s */
+  animation-direction: reverse;
+}
+
+.c2s2-alumni-logo-item:nth-child(2n) {
+  animation-timing-function: ease-in-out;
+}
+
+.c2s2-alumni-logo-item:nth-child(3n) {
+  animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+/* Animation for floating effect */
+@keyframes c2s2AlumniFloat {
+  0% {
+    transform: translate(-50%, -50%) translateZ(0);
+  }
+  25% {
+    transform: translate(-50%, -54%) translateZ(10px);
+  }
+  50% {
+    transform: translate(-52%, -50%) translateZ(0);
+  }
+  75% {
+    transform: translate(-50%, -46%) translateZ(-10px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateZ(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+  .c2s2-alumni-title {
+    font-size: 2.5rem;
+  }
+
+  .c2s2-alumni-logo-cloud {
+    height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .c2s2-alumni-title {
+    font-size: 2.2rem;
+  }
+
+  .c2s2-alumni-logo-cloud {
+    height: 700px;
+  }
+
+  .c2s2-alumni-logo-container {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .c2s2-alumni-companies-section {
+    padding: 60px 0;
+  }
+
+  .c2s2-alumni-title {
+    font-size: 2rem;
+  }
+
+  .c2s2-alumni-description {
+    font-size: 1rem;
+  }
+
+  .c2s2-alumni-logo-cloud {
+    height: 800px;
+  }
+
+  .c2s2-alumni-logo-container {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+  }
+}
+/*---------------------
+Alumni Section
+---------------------*/
+
 .alumni-section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .alumni-section .section-title {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .alumni-section .section-title p {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   color: #333;
   margin: 0;
@@ -1768,7 +1930,7 @@ section {
 .alumni-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+  gap: 12px;
   justify-content: center;
 }
 
@@ -1794,48 +1956,48 @@ section {
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  padding: 20px;
+  padding: 12px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .alumni-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .alumni-card .name {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   color: #333;
 }
 
 .alumni-card .position {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   color: #862020; /* Using the brand color */
 }
 
 .alumni-card .years {
-  font-size: 14px;
-  margin-bottom: 6px;
+  font-size: 13px;
+  margin-bottom: 4px;
   color: #666;
 }
 
 .alumni-card .major {
-  font-size: 14px;
-  margin-bottom: 6px;
+  font-size: 13px;
+  margin-bottom: 4px;
   color: #333;
 }
 
 .alumni-card .employer {
-  font-size: 14px;
-  margin-bottom: 12px;
+  font-size: 13px;
+  margin-bottom: 8px;
   color: #444;
   font-style: italic;
 }
@@ -1844,20 +2006,20 @@ section {
   display: flex;
   justify-content: center;
   margin-top: auto;
-  padding-top: 12px;
+  padding-top: 8px;
   border-top: 1px solid #eee;
 }
 
 .no-linkedin {
   color: #999;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .linkedin-link {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   color: #0077b5; /* LinkedIn color */
   transition: color 0.2s ease;
 }
@@ -1867,18 +2029,16 @@ section {
 }
 
 .linkedin-icon {
-  width: 18px;
-  height: 18px;
-  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
 }
 
 .alumni-button-container {
   display: flex;
   justify-content: center;
-
-  margin-top: 30px;
+  margin-top: 20px;
 }
-
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/

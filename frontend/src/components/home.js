@@ -43,7 +43,11 @@ function Home() {
             </div>
           </div>
         </section>
-        <section style={{ marginTop: "50px" }}>
+        <section
+          style={{ marginTop: "50px" }}
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
           <div className="container team-photo-container">
             <h1>Team Photo</h1>
             <img className="team-photo" src={teamPhoto} />

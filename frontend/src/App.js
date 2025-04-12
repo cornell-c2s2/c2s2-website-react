@@ -22,7 +22,7 @@ import Team from "./components/team.js";
 import Alumni from "./components/alumni.js";
 import ChipGallery from "./components/chipgallery.js";
 import Chip from "./components/chip.js";
-import Blog from "./components/blog.js";
+import BlogGallery from "./components/bloggallery.js";
 import BlogPost from "./components/blogpost.js";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
         <Route path="/chip-gallery" element={<ChipGallery />} />
         <Route path="/chip-gallery/:chip" element={<Chip />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<BlogGallery />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/team" element={<Team />} />
         <Route path="/alumni" element={<Alumni />} />

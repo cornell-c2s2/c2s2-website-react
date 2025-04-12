@@ -348,7 +348,7 @@ function Team() {
         </div>
       </section>
 
-      <section id="software" className="team">
+      <section id="platforms" className="team">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
             <i className="bi bi-code-slash"></i>
@@ -399,7 +399,7 @@ function Team() {
         </div>
       </section>
 
-      <section id="software" className="team">
+      <section id="soc" className="team">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
             <i className="bi bi-router"></i>

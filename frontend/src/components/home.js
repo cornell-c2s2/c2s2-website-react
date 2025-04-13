@@ -2,6 +2,9 @@ import React from "react";
 import hero from "../assets/img/hero-img.png";
 import teamPhoto from "../assets/img/team/full_team.jpg";
 
+//AlumniCompanies
+import AlumniCompanies from "./alumnicompanies.js";
+
 function Home() {
   return (
     <>
@@ -53,6 +56,7 @@ function Home() {
             <img className="team-photo" src={teamPhoto} />
           </div>
         </section>
+        <AlumniCompanies />
       </main>
     </>
   );

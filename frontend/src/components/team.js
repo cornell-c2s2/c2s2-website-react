@@ -64,9 +64,6 @@ import nickchanng from "../assets/img/team/Nicholas Channg_PM.jpg";
 //Alumni
 import AlumniInfo from "../assets/json/alumni8.json";
 
-//AlumniCompanies
-import AlumniCompanies from "./alumnicompanies.js";
-
 function Team() {
   return (
     <main id="main">
@@ -544,7 +541,7 @@ function Team() {
         </div>
       </section>
 
-      <AlumniCompanies />
+      {/* <AlumniCompanies /> */}
     </main>
   );
 }

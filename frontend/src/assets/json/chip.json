@@ -48,43 +48,51 @@
     ]
   },
   {
-    "id": "dove",
-    "title": "Dove ECE 5745",
-    "date": "Spring 2022",
-    "text": "This test chip, developed by the ECE 5745 class, is designed to explore the capabilities of Caravel and OpenLane. At its core, the chip features a RISC-V Litex SoC architecture, enabling flexible and efficient processing. It integrates four specialized hardware accelerators to enhance performance in various applications: Group 15: Wavelet Compression Accelerator, Group 16: SpMV Accelerator, Group 17: BNN Accelerator, Group 99: GCD Accelerator.",
-    "img_url": "../assets/img/chips/Dove(ECE5745_Spring'22).JPG",
+    "id": "kiwi",
+    "title": "Kiwi Analog",
+    "date": "Fall 2024",
+    "text": "",
+    "img_url": "../assets/img/chips/c2s2-2024-analog.jpg",
     "specifications": {
-      "Architecture": "RISC-V Litex SoC",
+      "Architecture": "RISC-V Litex SoC with Analog Components",
       "Process Technology": "Sky130",
-      "Die Size": "1.5mm × 1.5mm",
-      "Core Frequency": "100MHz"
+      "Die Size": "1.8mm × 1.8mm",
+      "Op-Amp Gain": ">60dB",
+      "Bandwidth": "10MHz",
+      "Multiplier Range": "±1.5V input",
+      "Chip Label": "A2"
     },
     "features": [
-      "Caravel and OpenLane integration",
-      "RISC-V Litex SoC architecture for flexible processing",
-      "Wavelet Compression Accelerator for efficient data compression",
-      "SpMV Accelerator for sparse matrix vector operations",
-      "BNN Accelerator for binary neural network computations",
-      "GCD Accelerator for greatest common divisor calculations"
+      "Integrated operational amplifiers for analog signal processing",
+      "Custom 'fingers' implementation for efficient analog interfacing",
+      "Analog multiplier for signal modulation applications",
+      "Mixed-signal design combining digital processing with analog I/O",
+      "RISC-V Litex SoC for control and digital processing",
+      "Optimized for low-noise analog operations"
     ]
   },
   {
-    "id": "cnf",
-    "title": "CNF Chip Art",
-    "date": "Spring 2022",
-    "text": "Using CNF's optical microscopy, we can see a sailing ship design, that was added by our manufacturer Efabless, embedded in the metal layers of our digital chip, Eagle. Located among the standard cells and metal fill patterns, this microscopic artwork demonstrates how artistic elements can be integrated into functional IC layouts.",
-    "img_url": "../assets/img/chips/cnf_boat.png",
+    "id": "puffin",
+    "title": "Puffin Digital Chip",
+    "date": "Fall 2023",
+    "text": "",
+    "img_url": "../assets/img/chips/c2s2-2023-digital.jpg",
     "specifications": {
-      "Process": "130nm CMOS",
-      "Size": "100μm × 150μm",
-      "Manufacturer": "Efabless",
-      "Visibility": "Only visible through optical microscopy"
+      "Architecture": "RISC-V Litex SoC with Analog Components",
+      "Process Technology": "Sky130",
+      "Die Size": "1.8mm × 1.8mm",
+      "Op-Amp Gain": ">60dB",
+      "Bandwidth": "10MHz",
+      "Multiplier Range": "±1.5V input",
+      "Chip Label": "A2"
     },
     "features": [
-      "Artistic design embedded in metal layers",
-      "Located among standard cells and metal fill patterns",
-      "Showcases integration of art and functional IC design",
-      "Demonstrates manufacturing precision at microscopic scales"
+      "Integrated operational amplifiers for analog signal processing",
+      "Custom 'fingers' implementation for efficient analog interfacing",
+      "Analog multiplier for signal modulation applications",
+      "Mixed-signal design combining digital processing with analog I/O",
+      "RISC-V Litex SoC for control and digital processing",
+      "Optimized for low-noise analog operations"
     ]
   }
 ]

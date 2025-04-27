@@ -1,69 +1,48 @@
-// BlogPost.js
 import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+// FA23
+import ABlinkIntoSiliconsPotential from "../blogposts/FA23/ABlinkIntoSiliconsPotential";
+import ChippingAwayAtChallenges from "../blogposts/FA23/ChippingAwayAtChallenges";
+import DesigningAndSynthesizingABetterFFT from "../blogposts/FA23/DesigningAndSynthesizingABetterFFT";
+import DigitalArt from "../blogposts/FA23/DigitalArt";
+import ElectronicDesignAutomation from "../blogposts/FA23/ElectronicDesignAutomation";
+import FromSandToSilicon from "../blogposts/FA23/FromSandToSilicon";
+import HelloWorld from "../blogposts/FA23/HelloWorld";
+import IterativeVsUnrolledCalculations from "../blogposts/FA23/IterativeVsUnrolledCalculations";
+import MallocFromScratch from "../blogposts/FA23/MallocFromScratch";
+import PCBDesign from "../blogposts/FA23/PCBDesign";
+import RepresentingNumbersInHardware from "../blogposts/FA23/RepresentingNumbersInHardware";
+import TestAndValOfPCBs from "../blogposts/FA23/TestAndValOfPCBs";
+import TheAnalogSubteamProcessFlow from "../blogposts/FA23/TheAnalogSubteamProcessFlow";
+import UnravelingBirdSoundsWithSpectrograms from "../blogposts/FA23/UnravelingBirdSoundsWithSpectrograms";
+
+// FA24
+import AnikaAnalog from "../blogposts/FA24/AnikaAnalog";
+import GroundUp from "../blogposts/FA24/GroundUp";
+import TanyaSoftware from "../blogposts/FA24/TanyaSoftware";
+import Unboxing from "../blogposts/FA24/Unboxing";
+import VayunDigital from "../blogposts/FA24/VayunDigital";
+// SP23
+
+// SP24
 
 // This component will render a single blog post
 function BlogPost() {
-  const { postId } = useParams();
-  const [content, setContent] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const location = useLocation();
+  // const [blog, setBlog] = useState(null);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchBlogPost = async () => {
-      try {
-        setLoading(true);
-        // Fetch the blog post HTML file
-        const response = await fetch(`/blog-posts/${postId}.html`);
+  // useEffect(() => {
+  //   // Extract URL details whenever the location changes
+  //   const pathId = location.pathname.split("/").pop();
 
-        if (!response.ok) {
-          throw new Error(`Failed to fetch blog post: ${response.status}`);
-        }
+  //   // Get chip data from imported JSON
+  //   const selectedBlog = blogData.find((item) => item.id === pathId);
+  //   setBlog(selectedBlog);
+  //   setLoading(false);
+  // }, [location]);
 
-        const html = await response.text();
-
-        // Extract content between <main> tags using regex
-        const mainContentRegex = /<main id="main">([\s\S]*?)<\/main>/;
-        const match = html.match(mainContentRegex);
-
-        if (match && match[1]) {
-          setContent(match[1]);
-        } else {
-          throw new Error("Could not extract main content from HTML");
-        }
-      } catch (err) {
-        console.error("Error loading blog post:", err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchBlogPost();
-  }, [postId]);
-
-  // Handle loading state
-  if (loading) {
-    return <div className="blog-loading">Loading post...</div>;
-  }
-
-  // Handle error state
-  if (error) {
-    return (
-      <div className="blog-error">
-        <h2>Error loading blog post</h2>
-        <p>{error}</p>
-        <Link to="/blog">Return to Blog List</Link>
-      </div>
-    );
-  }
-
-  return (
-    <div className="blog-container">
-      {/* Render the extracted HTML content safely */}
-      <div dangerouslySetInnerHTML={{ __html: content }} />
-    </div>
-  );
+  return <ABlinkIntoSiliconsPotential />;
 }
 
 export default BlogPost;

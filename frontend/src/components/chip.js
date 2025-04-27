@@ -3,14 +3,14 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import chipData from "../assets/json/chip.json";
-import cnf from "../assets/img/chips/cnf_boat.png";
-import dove from "../assets/img/chips/Dove(ECE5745_Spring'22).JPG";
-import eagle from "../assets/img/chips/Eagle_Digital_Spring'23.JPG";
+import kiwi from "../assets/img/chips/c2s2-2024-analog.jpg";
+import puffin from "../assets/img/chips/c2s2-2023-digital.jpg";
+import eagle from "../assets/img/chips/eagle_digital_24.jpg";
 import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 
 const images = {
-  cnf,
-  dove,
+  kiwi,
+  puffin,
   eagle,
   sparrow,
 };

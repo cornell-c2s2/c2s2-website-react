@@ -42,6 +42,7 @@ function App() {
         <Route path="/chip-gallery/:chip" element={<Chip />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<BlogGallery />} />
+        <Route path="/blog/:blog" element={<BlogPost />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/team" element={<Team />} />
         <Route path="/alumni" element={<Alumni />} />

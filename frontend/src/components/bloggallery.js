@@ -84,7 +84,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA24/anika-analog.html">
+                <a href="/blog/anikaanalog">
                   <img src={image4} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -102,7 +102,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA24/tanyasoftware.html">
+                <a href="/blog/tanyasoftware">
                   <img src={tanyaSoftware} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -120,7 +120,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA24/VayunDigital.html">
+                <a href="/blog/VayunDigital">
                   <img
                     src={vayunDigitalThumbnail}
                     className="img-fluid"
@@ -142,7 +142,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA24/groundUp.html">
+                <a href="/blog/groundUp">
                   <img src={groundUpThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -163,7 +163,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA24/unboxing.html">
+                <a href="/blog/unboxing">
                   <img src={unboxingThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -187,7 +187,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/TechnicalPM.html">
+                <a href="/blog/TechnicalPM">
                   <img
                     src={TechnicalPMThumbnail}
                     className="img-fluid"
@@ -209,7 +209,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/VerifyBetterFFT.html">
+                <a href="/blog/VerifyBetterFFT">
                   <img
                     src={VerifyBetterFFTThumbnail}
                     className="img-fluid"
@@ -231,7 +231,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/ASICDesignFlow.html">
+                <a href="/blog/ASICDesignFlow">
                   <img
                     src={ASICDesignFlowThumbnail}
                     className="img-fluid"
@@ -253,7 +253,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/ImgSilicon.html">
+                <a href="/blog/ImgSilicon">
                   <img src={ImgSiliconThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -271,7 +271,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/Magic.html">
+                <a href="/blog/Magic">
                   <img src={MagicThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -289,7 +289,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/CMake.html">
+                <a href="/blog/CMake">
                   <img src={CMakeThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -307,7 +307,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/OverCloud.html">
+                <a href="/blog/OverCloud">
                   <img src={OverCloudThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -327,7 +327,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/ChipChatter.html">
+                <a href="/blog/ChipChatter">
                   <img
                     src={ChipChatterThumbnail}
                     className="img-fluid"
@@ -349,7 +349,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/ScrubJay.html">
+                <a href="/blog/ScrubJay">
                   <img src={ScrubJayThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -367,7 +367,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/TwoWorlds.html">
+                <a href="/blog/TwoWorlds">
                   <img src={TwoWorldsThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -385,7 +385,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/GDS.html">
+                <a href="/blog/GDS">
                   <img src={GDSThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -403,7 +403,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/chooseFighter.html">
+                <a href="/blog/chooseFighter">
                   <img
                     src={chooseFighterThumbnail}
                     className="img-fluid"
@@ -425,7 +425,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP24/NotEasy">
+                <a href="/blog/NotEasy">
                   <img src={NotEasyThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -449,7 +449,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/PCBDesign">
+                <a href="/blog/PCBDesign">
                   <img src={PCBDesignThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -467,7 +467,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/DesigningAndSynthesizingABetterFFT">
+                <a href="/blog/DesigningAndSynthesizingABetterFFT">
                   <img
                     src={DesigningAndSynthesizingABetterFFTThumbnail}
                     className="img-fluid"
@@ -489,7 +489,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/TestAndValOfPCBs">
+                <a href="/blog/TestAndValOfPCBs">
                   <img
                     src={TestAndValOfPCBThumbnails}
                     className="img-fluid"
@@ -511,7 +511,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/ChippingAwayAtChallenges">
+                <a href="/blog/ChippingAwayAtChallenges">
                   <img
                     src={ChippingAwayAtChallengesThumbnail}
                     className="img-fluid"
@@ -533,7 +533,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/ElectronicDesignAutomation">
+                <a href="/blog/ElectronicDesignAutomation">
                   <img
                     src={ElectronicDesignAutomationThumbnail}
                     className="img-fluid"
@@ -558,7 +558,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/UnravelingBirdSoundsWithSpectrograms">
+                <a href="/blog/UnravelingBirdSoundsWithSpectrograms">
                   <img
                     src={UnravelingBirdSoundsWithSpectrogramsThumbnail}
                     className="img-fluid"
@@ -580,7 +580,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/IterativeVsUnrolledCalculations">
+                <a href="/blog/IterativeVsUnrolledCalculations">
                   <img
                     src={IterativeVsUnrolledCalculationsThumbnail}
                     className="img-fluid"
@@ -602,7 +602,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/DigitalArt">
+                <a href="/blog/DigitalArt">
                   <img src={DigitalArtThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -620,7 +620,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/HelloWorld">
+                <a href="/blog/HelloWorld">
                   <img src={HelloWorldThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -641,7 +641,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/MallocFromScratch">
+                <a href="/blog/MallocFromScratch">
                   <img
                     src={MallocFromScratchThumbnail}
                     className="img-fluid"
@@ -665,7 +665,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/FromSandToSilicon">
+                <a href="/blog/FromSandToSilicon">
                   <img
                     src={FromSandToSiliconThumbnail}
                     className="img-fluid"
@@ -687,7 +687,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="/ABlinkIntoSiliconsPotential">
+                <a href="/blog/ABlinkIntoSiliconsPotential">
                   <img
                     src={ABlinkSiliconsPotentialThumbnail}
                     className="img-fluid"
@@ -709,7 +709,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/RepresentingNumbersInHardware">
+                <a href="/blog/RepresentingNumbersInHardware">
                   <img
                     src={RepresentingNumbersInHardwareThumbnail}
                     className="img-fluid"
@@ -731,7 +731,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/FA23/TheAnalogSubteamProcessFlow">
+                <a href="/blog/TheAnalogSubteamProcessFlow">
                   <img
                     src={TheAnalogSubteamProcessFlowThumbnail}
                     className="img-fluid"
@@ -759,7 +759,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/SystemArchitectureBlogPost">
+                <a href="/blog/SystemArchitectureBlogPost">
                   <img
                     src={SystemArchitectureBlogPostThumbnail}
                     className="img-fluid"
@@ -781,7 +781,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/DeserializerAndTapeOutUpdate">
+                <a href="/blog/DeserializerAndTapeOutUpdate">
                   <img
                     src={DeserializerAndTapeOutUpdateThumbnail}
                     className="img-fluid"
@@ -803,7 +803,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/TwoSidesOfACoin">
+                <a href="/blog/TwoSidesOfACoin">
                   <img
                     src={TwoSidesOfACoinThumbnail}
                     className="img-fluid"
@@ -827,7 +827,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/MagicVLSIvsCadenceVirtuoso">
+                <a href="/blog/MagicVLSIvsCadenceVirtuoso">
                   <img
                     src={MagicVLSIvsCadenceVirtuosoThumbnail}
                     className="img-fluid"
@@ -849,7 +849,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/ProgressReport4_23_23">
+                <a href="/blog/ProgressReport4_23_23">
                   <img
                     src={ProgressReport4_23_23Thumbnail}
                     className="img-fluid"
@@ -871,7 +871,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/SoftwareAndRelativePositionEstimator">
+                <a href="/blog/SoftwareAndRelativePositionEstimator">
                   <img
                     src={SoftwareAndRelativePositionEstimatorThumbnail}
                     className="img-fluid"
@@ -893,7 +893,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/SPIMinion-Adapter-PythonTools">
+                <a href="/blog/SPIMinionAdapterPythonTools">
                   <img
                     src={SPIMinionAdapterPythonToolsThumbnail}
                     className="img-fluid"
@@ -915,7 +915,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/SiliconForScrubJays">
+                <a href="/blog/SiliconForScrubJays">
                   <img
                     src={SiliconForScrubJaysThumbnail}
                     className="img-fluid"
@@ -937,7 +937,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/AnalogMultiplexer">
+                <a href="/blog/AnalogMultiplexer">
                   <img
                     src={AnalogMultiplexerThumbnail}
                     className="img-fluid"
@@ -959,7 +959,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/ISPI">
+                <a href="/blog/ISPI">
                   <img src={ISPIThumbnail} className="img-fluid" alt="" />
                   <div className="post-info">
                     <div className="post-info-content">
@@ -977,7 +977,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/CrashDetectors&Calculators">
+                <a href="/blog/CrashDetectorsAndCalculators">
                   <img
                     src={CrashDetectorsCalculatorsThumbnail}
                     className="img-fluid"
@@ -999,7 +999,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/SystemArchitectureProgressReport">
+                <a href="/blog/SystemArchitectureProgressReport">
                   <img
                     src={SystemArchitectureProgressReportThumbnail}
                     className="img-fluid"
@@ -1021,7 +1021,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/ProgressReportMarch2023">
+                <a href="/blog/ProgressReportMarch2023">
                   <img
                     src={ProgressReportMarch2023Thumbnail}
                     className="img-fluid"
@@ -1043,7 +1043,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/TheProcessOfAcquiringSponsors">
+                <a href="/blog/TheProcessOfAcquiringSponsors">
                   <img
                     src={TheProcessOfAcquiringSponsorsThumbnail}
                     className="img-fluid"
@@ -1065,7 +1065,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/ProgressReport">
+                <a href="/blog/ProgressReport">
                   <img
                     src={ProgressReportThumbnail}
                     className="img-fluid"
@@ -1087,7 +1087,7 @@ function BlogGallery() {
               data-aos-delay="200"
             >
               <div className="post">
-                <a href="blogposts/SP23/ConstantGmCurrentReferenceTapeIn">
+                <a href="/blog/ConstantGmCurrentReferenceTapeIn">
                   <img
                     src={ConstantGmCurrentReferenceTapeInThumbnail}
                     className="img-fluid"

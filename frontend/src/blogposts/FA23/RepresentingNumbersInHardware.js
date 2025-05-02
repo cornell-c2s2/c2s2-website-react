@@ -172,7 +172,7 @@ function RepresentingNumbersInHardware() {
 
           <h2>Additional Resources</h2>
 
-          <ul style="padding: auto; text-align: left;">
+          <ul style={{ padding: "auto", textAlign: "left" }}>
             <li>
               <a href="https://mathcenter.oxford.emory.edu/site/cs170/ieee754/">
                 The IEEE 754 Format

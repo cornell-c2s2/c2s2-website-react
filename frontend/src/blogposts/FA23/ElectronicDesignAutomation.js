@@ -162,15 +162,21 @@ function ElectronicDesignAutomation() {
             hierarchical structure than a control-flow graph.
           </p>
 
-          <div className="row" style="margin-bottom: 1rem;">
+          <div className="row" style={{ marginBottom: "1rem" }}>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-block align-items-center">
-              <div style="border: 2px solid #b31b1b; border-radius: 1rem; margin: 0.2rem;">
+              <div
+                style={{
+                  border: "2px solid #b31b1b",
+                  borderRadius: "1rem",
+                  margin: "0.2rem",
+                }}
+              >
                 <h3>
                   <u>Unoptimized Code</u>
                 </h3>
                 <span
                   className="code"
-                  style="display: inline-block; text-align: left;"
+                  style={{ display: "inline-block", textAlign: "left" }}
                 >
                   int x = 14; <br />
                   int y = 7 - x / 2; <br />
@@ -180,13 +186,19 @@ function ElectronicDesignAutomation() {
             </div>
 
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-block align-items-center">
-              <div style="border: 2px solid #b31b1b; border-radius: 1rem; margin: 0.2rem;">
+              <div
+                style={{
+                  border: "2px solid #b31b1b",
+                  borderRadius: "1rem",
+                  margin: "0.2rem",
+                }}
+              >
                 <h3>
                   <u>Optimized code after Constant Propagation</u>
                 </h3>
                 <span
                   className="code"
-                  style="display: inline-block; text-align: left;"
+                  style={{ display: "inline-block", textAlign: "left" }}
                 >
                   int x = 14; <br />
                   int y = 0; <br />
@@ -196,7 +208,13 @@ function ElectronicDesignAutomation() {
             </div>
 
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-block align-items-center">
-              <div style="border: 2px solid #b31b1b; border-radius: 1rem; margin: 0.2rem;">
+              <div
+                style={{
+                  border: "2px solid #b31b1b",
+                  borderRadius: "1rem",
+                  margin: "0.2rem",
+                }}
+              >
                 <h3>
                   <u>
                     Optimized code after Constant Propagation and Dead Code
@@ -205,7 +223,7 @@ function ElectronicDesignAutomation() {
                 </h3>
                 <span
                   className="code"
-                  style="display: inline-block; text-align: left;"
+                  style={{ display: "inline-block", textAlign: "left" }}
                 >
                   return 0; <br />
                 </span>

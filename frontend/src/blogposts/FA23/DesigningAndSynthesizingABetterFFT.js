@@ -200,7 +200,7 @@ function DesigningAndSynthesizingABetterFFT() {
             designs, and we are ready to synthesize.
           </p>
 
-          <figure style="max-width: min(70%, 300px)">
+          <figure style={{ maxWidth: "min(70%, 300px)" }}>
             <img src={image5} />
             <figcaption>
               An example <span className="code">pin_order.cfg</span>

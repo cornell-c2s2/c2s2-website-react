@@ -104,7 +104,7 @@ function FromSandToSilicon() {
 
           <span
             className="code"
-            style="display: inline-block; text-align: left;"
+            style={{ display: "inline-block", textAlign: "left" }}
           >
             logic X; <br />
             logic Y; <br />

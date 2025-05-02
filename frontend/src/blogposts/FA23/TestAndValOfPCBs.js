@@ -133,10 +133,15 @@ function TestAndValOfPCBs() {
             OUT, and other assembly instructions properly manipulated the PORTC
             pins in order to produce the LED state changes. Below is the code:
           </p>
-
           <pre
             className="code"
-            style="display: inline-block; text-align: left; border: 2px solid #b31b1b; border-radius: 0.5rem; background-color: #c8b0b0;"
+            style={{
+              display: "inline-block",
+              textAlign: "left",
+              border: "2px solid #b31b1b",
+              borderRadius: "0.5rem",
+              backgroundColor: "#c8b0b0",
+            }}
           >
             {`#include <xc.h>
   #include <avr/io.h>

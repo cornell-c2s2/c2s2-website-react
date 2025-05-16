@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 
 import chipData from "../assets/json/chip.json";
 import kiwi from "../assets/img/chips/c2s2-2024-analog.jpg";
-import puffin from "../assets/img/chips/c2s2-2023-digital.jpg";
-import eagle from "../assets/img/chips/eagle_digital_24.jpg";
+import eagle from "../assets/img/chips/c2s2-2023-digital.jpg";
+import puffin from "../assets/img/chips/eagle_digital_24.jpg";
 import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 
 const images = {

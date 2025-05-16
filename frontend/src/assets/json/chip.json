@@ -25,7 +25,7 @@
   },
   {
     "id": "sparrow",
-    "title": "Sparrow Analog",
+    "title": "Sparrow Analog Chip",
     "date": "Spring 2023",
     "text": "The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers – integrated to provide versatile analog signal processing capabilities, 'fingers' implementation – allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation – facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations.",
     "img_url": "../assets/img/chips/Sparrow_AnalogSpring'23.JPG",
@@ -49,8 +49,8 @@
   },
   {
     "id": "kiwi",
-    "title": "Kiwi Analog",
-    "date": "Fall 2024",
+    "title": "Kiwi Analog Chip",
+    "date": "Spring 2024",
     "text": "",
     "img_url": "../assets/img/chips/c2s2-2024-analog.jpg",
     "specifications": {
@@ -74,7 +74,7 @@
   {
     "id": "puffin",
     "title": "Puffin Digital Chip",
-    "date": "Fall 2023",
+    "date": "Spring 2024",
     "text": "",
     "img_url": "../assets/img/chips/c2s2-2023-digital.jpg",
     "specifications": {

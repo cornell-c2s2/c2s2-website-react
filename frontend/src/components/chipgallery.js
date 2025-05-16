@@ -1,7 +1,7 @@
 import React from "react";
 import kiwi from "../assets/img/chips/c2s2-2024-analog.jpg";
-import puffin from "../assets/img/chips/c2s2-2023-digital.jpg";
-import eagle from "../assets/img/chips/eagle_digital_24.jpg";
+import eagle from "../assets/img/chips/c2s2-2023-digital.jpg";
+import puffin from "../assets/img/chips/eagle_digital_24.jpg";
 import sparrow from "../assets/img/chips/Sparrow_AnalogSpring'23.JPG";
 
 function ChipGallery() {
@@ -17,29 +17,29 @@ function ChipGallery() {
       <section className="py-5 bg-light">
         <div className="container chip-gallery-container">
           <ChipComponent
+            img={puffin}
+            name="Puffin Digital Chip"
+            date="Spring 2024"
+            text=""
+            link="chip-gallery/puffin"
+          />
+          <ChipComponent
             img={kiwi}
-            name="Kiwi Analog"
-            date="Fall 2024"
+            name="Kiwi Analog Chip"
+            date="Spring 2024"
             text=""
             link="chip-gallery/kiwi"
           />
           <ChipComponent
             img={eagle}
             name="Eagle Digital Chip"
-            date="Spring 2024"
+            date="Spring 2023"
             text="The 2023 C2S2 Digital Tapeout showcases a design centered around a RISC-V Litex System on Chip. This chip features a custom digital Cooley-Tukey Fast Fourier Transform (FFT) implementation, optimized for high-speed signal processing tasks. The RISC-V architecture provides a flexible and scalable processing platform, enabling efficient execution of complex algorithms and data manipulation"
             link="chip-gallery/eagle"
           />
           <ChipComponent
-            img={puffin}
-            name="Puffin Digital Chip"
-            date="Fall 2023"
-            text=""
-            link="chip-gallery/puffin"
-          />
-          <ChipComponent
             img={sparrow}
-            name="Sparrow Analog"
+            name="Sparrow Analog Chip"
             date="Spring 2023"
             text="The 2023 C2S2 Analog Tapeout features an innovative hardware design centered around a RISC-V Litex System on Chip (SoC). This versatile chip incorporates multiple analog components to enhance its functionality: operational amplifiers — integrated to provide versatile analog signal processing capabilities, 'fingers' implementation — allows for efficient interfacing and control in various analog scenarios, and 'multiplier' implementation — facilitates analog multiplication processes for applications requiring signal modulation and other complex mathematical operations."
             link="chip-gallery/sparrow"
